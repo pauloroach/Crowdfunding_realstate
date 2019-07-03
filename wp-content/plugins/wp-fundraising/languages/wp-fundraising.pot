@@ -1,0 +1,1194 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Fundraising -  Donation and Crowdfunding Platform\n"
+"POT-Creation-Date: 2018-05-11 19:35+0600\n"
+"PO-Revision-Date: 2018-05-11 19:34+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-fundraising.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;__;_e;_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/class.wp-fundraising-donation.php:81
+msgid "WP Fundraising Donation"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:111
+msgid "Donation"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:112
+msgid "Donation Level"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:137
+msgid "Donation Goal ("
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:138
+msgid "Donation goal"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:139 inc/class.wp-fundraising.php:164
+msgid "Enter the funding goal"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:147 inc/class.wp-fundraising.php:172
+msgid "Start date"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:148 inc/class.wp-fundraising.php:173
+msgid "Start time of this campaign"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:149 inc/class.wp-fundraising.php:174
+msgid "Enter start of this campaign"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:157 inc/class.wp-fundraising.php:182
+msgid "End date"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:158 inc/class.wp-fundraising.php:183
+msgid "End time of this campaign"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:159 inc/class.wp-fundraising.php:184
+msgid "Enter end time of this campaign"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:168 inc/class.wp-fundraising.php:193
+msgid "Video Url"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:169 inc/class.wp-fundraising.php:194
+msgid "Video url"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:171 inc/class.wp-fundraising.php:196
+msgid "Enter a video url to show your video in campaign details page"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:211
+#: inc/class.wp-fundraising-donation.php:212 inc/class.wp-fundraising.php:262
+#: inc/class.wp-fundraising.php:302 inc/class.wp-fundraising.php:303
+#: templates/dashboard/address.php:90 templates/dashboard/address.php:151
+#: templates/dashboard/address.php:217 templates/dashboard/address.php:291
+#: templates/shortcode-submit-form.php:304
+msgid "Country"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:222
+#: inc/class.wp-fundraising-donation.php:223 inc/class.wp-fundraising.php:313
+#: inc/class.wp-fundraising.php:314 templates/shortcode-submit-form.php:327
+msgid "Location"
+msgstr ""
+
+#: inc/class.wp-fundraising-donation.php:224 inc/class.wp-fundraising.php:315
+msgid "Location of this campaign"
+msgstr ""
+
+#: inc/class.wp-fundraising-frontend-campaign-form.php:31
+msgid "Please check terms condition"
+msgstr ""
+
+#: inc/class.wp-fundraising-init.php:183
+msgid "WP Fundraising requires WooCommerce to be activated"
+msgstr ""
+
+#: inc/class.wp-fundraising-init.php:191
+msgid "Your WooCommerce version is below then 3.0, please update"
+msgstr ""
+
+#: inc/class.wp-fundraising-registration-function.php:125
+msgid "success"
+msgstr ""
+
+#: inc/class.wp-fundraising-registration-function.php:190
+#: inc/class.wp-fundraising-registration-function.php:191
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:105
+msgid "WP Fundraising"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:135
+msgid "Fundraising"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:136
+msgid "Rewards"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:137
+msgid "Updates"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:162
+msgid "Funding Goal ("
+msgstr ""
+
+#: inc/class.wp-fundraising.php:163
+msgid "Funding goal"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:206
+msgid "Minimum Price ("
+msgstr ""
+
+#: inc/class.wp-fundraising.php:207
+msgid "Minimum Price"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:208
+msgid "Enter the minimum price"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:219
+msgid "Maximum Price ("
+msgstr ""
+
+#: inc/class.wp-fundraising.php:220
+msgid "Maximum Price"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:221
+msgid "Enter the maximum price"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:232
+msgid "Recommended Price ("
+msgstr ""
+
+#: inc/class.wp-fundraising.php:233
+msgid "Recommended Price"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:234
+msgid "Enter the recommended price"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:261
+msgid "Campaign End Method"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:273
+msgid "Show Contributor Table"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:275
+msgid "Enable this option to display the contributors for this Campaign"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:284
+msgid "Mark Contributors as Anonymous"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:286
+msgid ""
+"Enable this option to display the contributors Name as Anonymous for this "
+"Campaign"
+msgstr ""
+
+#: inc/class.wp-fundraising.php:422
+msgid "This campaign has been end"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:32 templates/shortcode-submit-form.php:89
+msgid "General Options"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:36
+msgid "Donation Options"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:40
+msgid "Share Options"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:44
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:48
+msgid "Display Options"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:63
+msgid "Disable Minimum Price"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:64
+msgid "Disable minimum price option on the campaign submission form"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:69
+msgid "Disable Maximum Price"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:70
+msgid "Disable maximum price option on the campaign submission form"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:75
+msgid "Disable Recommended Price"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:76
+msgid "Disable recommended price option on the campaign submission form"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:81 inc/config/class.menu-settings.php:87
+#: inc/config/class.menu-settings.php:93 inc/config/class.menu-settings.php:99
+#: inc/config/class.menu-settings.php:172
+#: inc/config/class.menu-settings.php:178
+#: inc/config/class.menu-settings.php:184
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:82
+msgid "Disable Target Goal"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:88
+msgid "Disable Target Date"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:94
+msgid "Disable Target Goal & Date"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:100
+msgid "Disable Campaign Never End"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:107
+msgid "Select Feature Campaign"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:108
+msgid "Select feature campaign for donation."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:122
+msgid "Enable Twitter"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:123
+msgid "Enable Twitter in Single Campaign"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:134
+msgid "Enable Facebook"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:135
+msgid "Enable Facebook in Single Campaign"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:140
+msgid "Enable GooglePlus"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:141
+msgid "Enable GooglePlus in Single Campaign"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:146
+msgid "Enable Pinterest"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:147
+msgid "Enable Pinterest in Single Campaign"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:152
+msgid "Enable Linkedin"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:153
+msgid "Enable Linkedin in Single Campaign"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:173
+msgid "Hide Campaign From Shop Page"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:179
+msgid "Hide Billing Address From Checkout Page"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:185
+msgid "Reward show fixed price not range."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:191
+msgid "Select Listing Page"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:192
+msgid "Select Fundraising Product Listing Page."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:200
+msgid "Select Registration Page"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:201
+msgid "Select Fundraising Registration Page."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:207
+msgid "Redirect after Invest Now Button submit"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:208
+msgid ""
+"You can set redirect page when you submit back amount and click Invest Now "
+"Button"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:218
+msgid "Enable Display Settings"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:219
+msgid "Enable display settings option for custom color layout."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:224
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:225
+msgid "Select color scheme of plugins."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:231
+msgid "Button BG Color"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:232
+msgid "Select button background color."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:238
+msgid "Button BG Hover Color"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:239
+msgid "Select button background hover color."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:245
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:246
+msgid "Select button text color."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:252
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:253
+msgid "Select button text hover color."
+msgstr ""
+
+#: inc/config/class.menu-settings.php:259
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/config/class.menu-settings.php:260
+msgid "Put here custom CSS."
+msgstr ""
+
+#: inc/hook/wp-fundraising-actions.php:116
+msgid "Charitious"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:17
+#: inc/hook/wp-fundraising-frontend-filters.php:24
+#: inc/hook/wp-fundraising-frontend-filters.php:123
+#: libs/wp-fundraising-frontend-filters-list.php:6
+msgid "Backers"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:31
+msgid "Update"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:38
+msgid "Invest Now"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:45
+#: inc/hook/wp-fundraising-frontend-filters.php:130
+#: inc/hook/wp-fundraising-frontend-filters.php:211
+#: libs/wp-fundraising-frontend-filters-list.php:87
+msgid "Goal"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:52
+#: inc/hook/wp-fundraising-frontend-filters.php:137
+#: inc/hook/wp-fundraising-frontend-filters.php:218
+#: libs/wp-fundraising-frontend-filters-list.php:55
+#: libs/wp-fundraising-frontend-filters-list.php:97
+msgid "Fund Raised"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:59
+#: inc/hook/wp-fundraising-frontend-filters.php:144
+#: inc/hook/wp-fundraising-frontend-filters.php:225
+msgid "Pledged"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:70
+msgid "Other Project"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:83
+msgid ""
+"FundPress has built a platform focused on aiding entrepreneurs, startups, "
+"and companies raise capital from anyone."
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:96
+#: libs/wp-fundraising-frontend-filters-list.php:67
+msgid "Estimated Delivery"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:109
+#: libs/wp-fundraising-frontend-filters-list.php:73
+msgid "Ship To"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:152
+#: inc/hook/wp-fundraising-frontend-filters.php:233
+#: libs/wp-fundraising-frontend-filters-list.php:103
+#: templates/loop/shop-loop-after-item-title.php:60
+msgid "Days to go"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:173
+msgid "Login"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:180
+msgid "login now"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:187
+msgid "SignUp"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:194
+msgid "Signup"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:203
+#: libs/wp-fundraising-frontend-filters-list.php:142
+#: libs/wp-fundraising-frontend-filters-list.php:164
+msgid "Add New Campaign"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:261
+#: libs/wp-fundraising-frontend-filters-list.php:154
+msgid "Make a donation"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:262
+#: libs/wp-fundraising-frontend-filters-list.php:155
+msgid "To learn more about make donate charity with us visit our"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:263
+#: libs/wp-fundraising-frontend-filters-list.php:156
+msgid "Contact us"
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:264
+#: libs/wp-fundraising-frontend-filters-list.php:157
+msgid "site. By calling "
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:265
+#: libs/wp-fundraising-frontend-filters-list.php:158
+msgid "+44(0) 800 883 8450 "
+msgstr ""
+
+#: inc/hook/wp-fundraising-frontend-filters.php:276
+msgid "Donate Now"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:16
+msgid "WP Fundraising Campaigns"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:28
+msgid "Product element"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:35
+msgid "Show Only Charitable Campaigns"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:38 inc/widgets/wf-campaigns.php:96
+#: inc/widgets/wf-campaigns.php:106
+msgid "Show"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:39 inc/widgets/wf-campaigns.php:97
+#: inc/widgets/wf-campaigns.php:107
+msgid "Hide"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:45
+msgid "Style"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:49
+msgid "style 1"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:50
+msgid "style 2"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:51
+msgid "style 3"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:52
+msgid "style 4"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:60
+msgid "Post count"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:62
+msgid "3"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:70
+msgid "Select Column"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:74
+msgid "2 Column"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:75
+msgid "3 Column"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:76
+msgid "4 Column"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:83 templates/shortcode-submit-form.php:116
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:86
+msgid "design,fashion"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:87
+msgid "add you multiple category use comma separator"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:93
+msgid "Show Author"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:103
+msgid "Show Filter"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:114
+msgid "Status"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:118
+msgid "successful"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:119
+msgid "expired"
+msgstr ""
+
+#: inc/widgets/wf-campaigns.php:120
+msgid "valid"
+msgstr ""
+
+#: inc/wp-fundraising-template-functions.php:315
+#: inc/wp-fundraising-template-functions.php:346
+#: templates/content-donate-form.php:22
+msgid "List of Donation Level"
+msgstr ""
+
+#: inc/wp-fundraising-template-functions.php:317
+#: inc/wp-fundraising-template-functions.php:348
+#: templates/content-donate-form.php:24
+#: templates/loop/single/invest-now-btn.php:33
+msgid "Select Amount"
+msgstr ""
+
+#: inc/wp-fundraising-template-functions.php:321
+#: inc/wp-fundraising-template-functions.php:352
+#: templates/content-donate-form.php:28
+#: templates/loop/single/invest-now-btn.php:37
+msgid "Give a Custom Amount"
+msgstr ""
+
+#: inc/wp-fundraising-template-functions.php:385
+msgid "List of Evaluated Charities"
+msgstr ""
+
+#: inc/wp-fundraising-template-functions.php:387
+msgid "Select Campaign"
+msgstr ""
+
+#: libs/external/class.settings-api.php:368
+msgid "Choose File"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:11
+msgid "Backers Tab"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:17
+msgid "Update Tab"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:23
+msgid "Back Now"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:32
+msgid "Related Project"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:42
+msgid "Related Project Desc"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:49
+#: libs/wp-fundraising-frontend-filters-list.php:92
+msgid "Fund Raised Percent"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:61
+msgid "Fund Goal"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:82
+msgid "My Backers Count Text"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:119
+#: libs/wp-fundraising-frontend-filters-list.php:124
+#: libs/wp-fundraising-frontend-filters-list.php:129
+#: templates/shortcode-dashboard.php:94 templates/shortcode-login-btn.php:11
+#: templates/shortcode-submit-form.php:606
+msgid "Log In"
+msgstr ""
+
+#: libs/wp-fundraising-frontend-filters-list.php:134
+msgid "Sign Up"
+msgstr ""
+
+#: templates/content-campaign-listing.php:40
+#: templates/dashboard/campaigns.php:42
+#: templates/loop/shop-loop-after-item-title.php:35
+#: templates/loop/single/related.php:54
+msgid "Date expired"
+msgstr ""
+
+#: templates/content-campaign-listing.php:94
+#: templates/content-campaign-listing.php:124
+#: templates/content-campaign-listing.php:166
+msgid "By"
+msgstr ""
+
+#: templates/content-donate-form.php:9
+#: templates/loop/single/invest-now-btn.php:23
+msgid "Donation Amount "
+msgstr ""
+
+#: templates/content-donate-form.php:10 templates/content-donate-modal.php:12
+msgid "Enter Amount"
+msgstr ""
+
+#: templates/dashboard/account.php:36 templates/dashboard/account.php:76
+msgid "My Information"
+msgstr ""
+
+#: templates/dashboard/account.php:40 templates/dashboard/account.php:80
+msgid "Username"
+msgstr ""
+
+#: templates/dashboard/account.php:46 templates/dashboard/account.php:86
+#: templates/dashboard/address.php:235 templates/dashboard/address.php:309
+msgid "Email"
+msgstr ""
+
+#: templates/dashboard/account.php:52 templates/dashboard/account.php:92
+#: templates/dashboard/address.php:48 templates/dashboard/address.php:109
+#: templates/dashboard/address.php:175 templates/dashboard/address.php:249
+msgid "First Name"
+msgstr ""
+
+#: templates/dashboard/account.php:58 templates/dashboard/account.php:98
+#: templates/dashboard/address.php:54 templates/dashboard/address.php:115
+#: templates/dashboard/address.php:181 templates/dashboard/address.php:255
+msgid "Last Name"
+msgstr ""
+
+#: templates/dashboard/account.php:64 templates/dashboard/account.php:104
+msgid "Website"
+msgstr ""
+
+#: templates/dashboard/account.php:68 templates/dashboard/account.php:108
+msgid "Bio"
+msgstr ""
+
+#: templates/dashboard/account.php:72 templates/dashboard/address.php:102
+#: templates/dashboard/address.php:241 templates/dashboard/campaigns.php:51
+msgid "Edit"
+msgstr ""
+
+#: templates/dashboard/account.php:112 templates/dashboard/address.php:163
+#: templates/dashboard/address.php:315
+msgid "Cancel"
+msgstr ""
+
+#: templates/dashboard/account.php:113 templates/dashboard/address.php:164
+#: templates/dashboard/address.php:316
+msgid "Save"
+msgstr ""
+
+#: templates/dashboard/address.php:36
+msgid "Shipping Address"
+msgstr ""
+
+#: templates/dashboard/address.php:39
+msgid "Billing Address"
+msgstr ""
+
+#: templates/dashboard/address.php:60 templates/dashboard/address.php:121
+#: templates/dashboard/address.php:187 templates/dashboard/address.php:261
+msgid "Company"
+msgstr ""
+
+#: templates/dashboard/address.php:66 templates/dashboard/address.php:127
+#: templates/dashboard/address.php:193 templates/dashboard/address.php:267
+msgid "Address 01"
+msgstr ""
+
+#: templates/dashboard/address.php:72 templates/dashboard/address.php:133
+#: templates/dashboard/address.php:199 templates/dashboard/address.php:273
+msgid "Address 02"
+msgstr ""
+
+#: templates/dashboard/address.php:78 templates/dashboard/address.php:139
+#: templates/dashboard/address.php:205 templates/dashboard/address.php:279
+msgid "City"
+msgstr ""
+
+#: templates/dashboard/address.php:84 templates/dashboard/address.php:145
+#: templates/dashboard/address.php:211 templates/dashboard/address.php:285
+msgid "Postal Code"
+msgstr ""
+
+#: templates/dashboard/address.php:96 templates/dashboard/address.php:157
+#: templates/dashboard/address.php:223 templates/dashboard/address.php:297
+msgid "State"
+msgstr ""
+
+#: templates/dashboard/address.php:229 templates/dashboard/address.php:303
+msgid "Phone"
+msgstr ""
+
+#: templates/dashboard/campaigns.php:49
+msgid "by"
+msgstr ""
+
+#: templates/dashboard/campaigns.php:52
+msgid "View"
+msgstr ""
+
+#: templates/dashboard/campaigns.php:88
+msgid "Sorry, no Campaign Found."
+msgstr ""
+
+#: templates/loop/no-campaigns-found.php:7
+msgid "No campaigns found here."
+msgstr ""
+
+#: templates/loop/pagination.php:21
+msgid ""
+"<span class=\"pagination-next\"><i class=\"fa fa-angle-left\"></i></span>"
+msgstr ""
+
+#: templates/loop/pagination.php:22
+msgid ""
+"<span class=\"pagination-next\"><i class=\"fa fa-angle-right\"></i></span>"
+msgstr ""
+
+#: templates/loop/shop-loop-after-item-title.php:37
+msgid " days remaining"
+msgstr ""
+
+#: templates/loop/shop-loop-after-item-title.php:48
+msgid "Funding Goal"
+msgstr ""
+
+#: templates/loop/shop-loop-after-item-title.php:52
+msgid "Raised"
+msgstr ""
+
+#: templates/loop/shop-loop-after-item-title.php:56
+msgid "Funded: "
+msgstr ""
+
+#: templates/loop/single/invest-now-btn.php:31
+msgid "List of Donation Level "
+msgstr ""
+
+#: templates/loop/single/tabs/backers.php:42
+msgid "Anonymous"
+msgstr ""
+
+#: templates/loop/single/tabs/backers.php:66
+msgid "Sorry, no backer for this campaign."
+msgstr ""
+
+#: templates/loop/single/tabs/updates.php:28
+msgid "Here's the link:"
+msgstr ""
+
+#: templates/shortcode-dashboard.php:21
+msgid "My Campaigns"
+msgstr ""
+
+#: templates/shortcode-dashboard.php:27
+msgid "My Account"
+msgstr ""
+
+#: templates/shortcode-dashboard.php:33
+msgid "Address"
+msgstr ""
+
+#: templates/shortcode-dashboard.php:94 templates/shortcode-submit-form.php:606
+msgid "Please "
+msgstr ""
+
+#: templates/shortcode-dashboard.php:94
+msgid " to access this page."
+msgstr ""
+
+#: templates/shortcode-search.php:10 templates/shortcode-search.php:13
+msgid "Search"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:29
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#: templates/shortcode-submit-form.php:30
+msgid "Want to create a brand new campaign?"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:30
+msgid "Click Here"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:92
+msgid "Reward Options"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:101
+msgid "Title"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:104
+msgid "Put the campaign title here"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:118
+msgid "Select your campaign category"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:136
+#: templates/shortcode-submit-form.php:140
+msgid "Tag"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:138
+msgid "Separate tags with commas eg: tag1,tag2"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:147
+msgid "Image"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:149
+msgid "Upload a campaign feature image"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:161
+msgid "Video"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:163
+msgid "Put the campaign video URL here"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:166
+msgid "https://"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:176
+msgid "Start Date"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:178
+msgid "Campaign start date (dd-mm-yy)"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:186
+msgid "Funding Goal "
+msgstr ""
+
+#: templates/shortcode-submit-form.php:188
+msgid "Campaign funding goal"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:196
+msgid "Minimum Amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:198
+msgid "Minimum campaign funding amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:206
+msgid "Recomended Amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:209
+msgid "Recommended campaign funding amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:219
+msgid "Contributor Table"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:223
+msgid "Show contributor table on campaign single page"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:234
+msgid "End Date"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:236
+msgid "Campaign end date (dd-mm-yy)"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:243
+msgid "End Method"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:245
+msgid "Choose the stage when campaign will end"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:250
+msgid "Target Goal"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:254
+msgid "Target Date"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:258
+msgid "Target Goal & Date"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:262
+msgid "Campaign Never Ends"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:270
+msgid "Maximum Amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:272
+msgid "Maximum campaign funding amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:279
+msgid "Predefined Pledge Amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:281
+msgid "Predefined amount allow you to place the amount you donate box by click"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:290
+msgid "Contributor Anonymity"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:293
+msgid "Make contributors anonymous on the contributor table"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:306
+msgid "Select your country"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:329
+msgid "Put the campaign location here"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:341
+msgid "Short Description"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:343
+msgid "Put the campaign short description here"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:353
+msgid "Description"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:355
+msgid "Put the campaign description here"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:401
+#: templates/shortcode-submit-form.php:491
+msgid "Pledge Amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:403
+#: templates/shortcode-submit-form.php:493
+msgid "Enter Pledge amount"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:410
+#: templates/shortcode-submit-form.php:500
+msgid "Reward Title"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:412
+#: templates/shortcode-submit-form.php:502
+msgid "Enter  Reward Title"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:420
+#: templates/shortcode-submit-form.php:510
+msgid "Reward Description"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:422
+#: templates/shortcode-submit-form.php:512
+msgid "Enter Reward description"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:430
+#: templates/shortcode-submit-form.php:432
+#: templates/shortcode-submit-form.php:520
+#: templates/shortcode-submit-form.php:522
+msgid "Additional Reward Offer"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:443
+#: templates/shortcode-submit-form.php:533
+msgid "Estimated Delivery Date"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:445
+#: templates/shortcode-submit-form.php:535
+msgid "Estimated delivery Date of the Reward (dd-mm-yy)"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:455
+#: templates/shortcode-submit-form.php:545
+msgid "Quantity"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:457
+#: templates/shortcode-submit-form.php:547
+msgid "Enter Quantity of physical products"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:468
+#: templates/shortcode-submit-form.php:557
+msgid "Ships To"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:470
+#: templates/shortcode-submit-form.php:559
+msgid "Enter Ships To"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:476
+#: templates/shortcode-submit-form.php:565
+msgid "Remove"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:479
+#: templates/shortcode-submit-form.php:568
+msgid "Add more"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:585
+msgid "I agree with terms and conditions."
+msgstr ""
+
+#: templates/shortcode-submit-form.php:591
+msgid "Submit"
+msgstr ""
+
+#: templates/shortcode-submit-form.php:606
+msgid " to create a campaign"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Fundraising -  Donation and Crowdfunding Platform"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://xpeedstudio.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The ultimate WooCommerce supported fundraising Donation and Crowdfunding "
+"toolkit"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XpeedStudio"
+msgstr ""

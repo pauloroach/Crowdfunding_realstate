@@ -1,0 +1,2463 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Crowdmerc\n"
+"POT-Creation-Date: 2018-04-06 17:32+0600\n"
+"PO-Revision-Date: 2018-04-06 17:32+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"Oops!!! The page you are looking for does not exist. It might have been "
+"moved or deleted."
+msgstr ""
+
+#: 404.php:22
+msgid "Back To Home"
+msgstr ""
+
+#: comments.php:24
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:24
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:30 comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:31 comments.php:50
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:42
+msgid "Reply"
+msgstr ""
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:75
+msgid "Enter Name"
+msgstr ""
+
+#: comments.php:76
+msgid "Enter Email"
+msgstr ""
+
+#: comments.php:77
+msgid "Enter Website"
+msgstr ""
+
+#: comments.php:87
+msgid "Enter Comments"
+msgstr ""
+
+#: comments.php:95
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:96
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:97
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:98
+msgid "Post Comment"
+msgstr ""
+
+#: demo-content/default/manifest.php:7
+msgid "Default Demo"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:13
+msgid "Subtitle"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:14
+msgid "This is the text that appears on your slider subtitle"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:16
+msgid "What you do today"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:19
+msgid "Descriptions"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:20
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:62
+msgid "This is the text that appears on your button"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:22
+msgid "Nobodys more committed to connecting you with the exceptional"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:27
+#: inc/shortcode/style/xs-button.php:44 inc/shortcode/style/xs-button.php:93
+#: inc/shortcode/style/xs-button.php:224 inc/shortcode/xs-image-box.php:201
+msgid "Button"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:28
+msgid "Add Button"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:29
+msgid "Add your slider button"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:33
+#: inc/shortcode/xs-crowdfunding.php:39
+#: inc/shortcode/xs-featured-crowdfunding.php:113
+#: inc/shortcode/xs-video.php:131
+msgid "Style"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:34
+msgid "Choose button style"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:61
+msgid "Button Label"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:64
+msgid "Our Services"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:67
+msgid "Button Link"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:68
+msgid "Where should your button link to"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:74
+msgid "Open Link in New Window"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:75
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:78
+#: inc/shortcode/xs-map.php:131 inc/shortcode/xs-team.php:94
+#: inc/shortcode/xs-video.php:142
+msgid "Yes"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:82
+#: inc/shortcode/xs-map.php:132 inc/shortcode/xs-team.php:95
+#: inc/shortcode/xs-video.php:143
+msgid "No"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:90
+#: inc/shortcode/style/xs-button.php:171 inc/shortcode/xs-button.php:58
+#: inc/shortcode/xs-contact-info.php:129 inc/shortcode/xs-icon-box.php:61
+#: inc/shortcode/xs-icon-box.php:70
+msgid "Icon"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:95
+msgid "Choose the icon position"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:98
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:117
+#: inc/shortcode/style/xs-button.php:147 inc/shortcode/xs-button.php:96
+#: inc/shortcode/xs-heading.php:94 inc/shortcode/xs-icon-box.php:121
+#: inc/shortcode/xs-video.php:116
+msgid "Right"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:102
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:115
+#: inc/shortcode/style/xs-button.php:139 inc/shortcode/xs-button.php:88
+#: inc/shortcode/xs-heading.php:86 inc/shortcode/xs-icon-box.php:113
+#: inc/shortcode/xs-video.php:108
+msgid "Left"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:110
+#: inc/shortcode/style/xs-button.php:135 inc/shortcode/xs-button.php:84
+#: inc/shortcode/xs-heading.php:81 inc/shortcode/xs-icon-box.php:108
+#: inc/shortcode/xs-video.php:104
+msgid "Alignment"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:111
+msgid "Select the alignment for your Slide"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/extensions/bootstrap-carousel-slider/options/custom.php:116
+#: inc/shortcode/style/xs-button.php:143 inc/shortcode/xs-button.php:92
+#: inc/shortcode/xs-heading.php:90 inc/shortcode/xs-icon-box.php:117
+#: inc/shortcode/xs-video.php:112
+msgid "Center"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/shortcodes/slider/config.php:10
+msgid "Slider"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/shortcodes/slider/config.php:11
+msgid "Add a Slider"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/shortcodes/slider/config.php:12
+msgid "Media Elements"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:12
+msgid "Select Slider"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:17
+msgid " "
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:27
+msgid "No Sliders Available"
+msgstr ""
+
+#: framework-customizations/extensions/media/extensions/slider/shortcodes/slider/options.php:28
+#, php-format
+msgid ""
+"No Sliders created yet. Please go to the %s Sliders page and %s create a new "
+"Slider"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: framework-customizations/theme/manifest.php:9 inc/shortcode/elementor.php:72
+msgid "Crowdmerc"
+msgstr ""
+
+#: framework-customizations/theme/manifest.php:11
+msgid "crowdmerc WordPress theme"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:10
+msgid "Event"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:13
+msgid "General"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:17
+#: inc/customizer/customizer-config.php:25
+msgid "General Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:21
+msgid "Speaker Nme"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:22
+msgid "Enter Speaker name"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:26
+msgid "Organized by"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:27
+msgid "Organization name"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:33
+#: framework-customizations/theme/options/taxonomies/event_cat.php:7
+msgid "Event Date"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:34
+msgid "Enter your event date and time"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:45
+#: framework-customizations/theme/options/posts/event.php:55
+msgid "Phone"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:46
+msgid "Enter event time"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:50
+msgid "Venue"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:51
+msgid "Enter your event venue name"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:56
+msgid "Enter phone number"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:60
+msgid "Email"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:61
+msgid "Enter email address"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:69
+#: framework-customizations/theme/options/posts/event.php:90
+#: single-event.php:69
+msgid "Facilities"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:73
+msgid "Facilities Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:77
+#: inc/shortcode/xs-heading.php:61 inc/shortcode/xs-icon-box.php:49
+msgid "Description"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:78
+msgid "Event Description"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:84
+msgid "Add Facilities info"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:85
+msgid "Facilities info"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:86
+msgid "Add Artists info"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:91
+msgid "Assisting senior consultants in projects"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:97
+msgid "Assisting senior consultants in projects:"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:100
+msgid "Share best practices and knowledge."
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:109
+msgid "Map Locations"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:113
+#: inc/shortcode/xs-map.php:36
+msgid "Map Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:117
+msgid "Latitude"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:118
+#: framework-customizations/theme/options/posts/event.php:124
+msgid "Enter latitude"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:123
+#: inc/shortcode/xs-contact-info.php:110
+msgid "Longitude"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:133
+#: framework-customizations/theme/options/posts/event.php:141
+msgid "Contact Form"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:137
+msgid "Contact Form Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:142
+msgid "Enter contact form 7 shortcode"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:150
+msgid "Sponsor"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:154
+msgid "Sponsor Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:162
+msgid "Sponsor Logo"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/event.php:163
+msgid "Upload your sponsor logo"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:9
+#: inc/customizer/customizer-config.php:39
+msgid "Page Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:15
+#: framework-customizations/theme/options/posts/post.php:11
+msgid "Banner title"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:16
+msgid "Add your Page hero title"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:19
+#: framework-customizations/theme/options/posts/post.php:15
+msgid " Banner Image"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:20
+msgid "Upload a Page header image"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:21
+msgid "This default header image."
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:27
+msgid "Overlay"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:28
+msgid "This is optional Overlay"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/post.php:5
+msgid "Post Settings"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/post.php:12
+msgid "Add your post hero title"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/post.php:16
+msgid "Upload a post header image"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/post.php:17
+msgid "This default header image will be used for all your post."
+msgstr ""
+
+#: framework-customizations/theme/options/taxonomies/event_cat.php:8
+msgid "Enter your event date"
+msgstr ""
+
+#: functions.php:104
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:109
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:140
+msgid "Funds Raised"
+msgstr ""
+
+#: functions.php:146
+msgid "Other Causes"
+msgstr ""
+
+#: functions.php:153
+msgid "Fund this campaign"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:5 inc/shortcode/xs-blog.php:39
+#: inc/shortcode/xs-partner.php:36
+msgid "Select Style"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:9 inc/shortcode/xs-blog.php:46
+msgid "Blog listing"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:10 inc/shortcode/xs-blog.php:43
+msgid "Blog Grid Style 1"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:11 inc/shortcode/xs-blog.php:44
+msgid "Blog Grid Style 2"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:12 inc/shortcode/xs-blog.php:45
+msgid "Blog Grid Style 3"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:18 inc/customizer/shop-setting.php:17
+msgid "Grid Per Row"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:22 inc/customizer/shop-setting.php:21
+#: inc/shortcode/xs-blog.php:69 inc/shortcode/xs-crowdfunding.php:68
+msgid "2 Column"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:23 inc/customizer/shop-setting.php:22
+#: inc/shortcode/xs-blog.php:70 inc/shortcode/xs-crowdfunding.php:69
+msgid "3 Column"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:37
+#: inc/customizer/blog-single-settings.php:5
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:41
+#: inc/customizer/blog-single-settings.php:9 inc/customizer/page-settings.php:9
+#: inc/customizer/shop-setting.php:9
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:42
+#: inc/customizer/blog-single-settings.php:10
+#: inc/customizer/page-settings.php:10 inc/customizer/shop-setting.php:10
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:43
+#: inc/customizer/blog-single-settings.php:11
+#: inc/customizer/page-settings.php:11 inc/customizer/shop-setting.php:11
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:49 inc/customizer/page-settings.php:17
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:53
+#: inc/customizer/blog-single-settings.php:21
+#: inc/customizer/blog-single-settings.php:33
+#: inc/customizer/blog-single-settings.php:45
+#: inc/customizer/blog-single-settings.php:57
+#: inc/customizer/footer-settings.php:35 inc/customizer/general-settings.php:16
+#: inc/customizer/nav-settings.php:21 inc/customizer/nav-settings.php:150
+#: inc/customizer/nav-settings.php:162 inc/customizer/nav-settings.php:188
+#: inc/customizer/page-settings.php:21
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:54
+#: inc/customizer/blog-single-settings.php:22
+#: inc/customizer/blog-single-settings.php:34
+#: inc/customizer/blog-single-settings.php:46
+#: inc/customizer/blog-single-settings.php:58
+#: inc/customizer/footer-settings.php:36 inc/customizer/general-settings.php:17
+#: inc/customizer/nav-settings.php:22 inc/customizer/nav-settings.php:151
+#: inc/customizer/nav-settings.php:163 inc/customizer/nav-settings.php:189
+#: inc/customizer/page-settings.php:22
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:61 inc/customizer/shop-setting.php:35
+msgid "Banner Image"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:68 inc/customizer/shop-setting.php:42
+#: inc/shortcode/xs-heading.php:48
+msgid "Heading Title"
+msgstr ""
+
+#: inc/customizer/blog-settings.php:77
+msgid "News Feeds"
+msgstr ""
+
+#: inc/customizer/blog-single-settings.php:17
+#: inc/shortcode/xs-crowdfunding.php:87
+msgid "Show Author"
+msgstr ""
+
+#: inc/customizer/blog-single-settings.php:29 inc/shortcode/xs-team.php:91
+msgid "Show Social"
+msgstr ""
+
+#: inc/customizer/blog-single-settings.php:41
+msgid "Show Category"
+msgstr ""
+
+#: inc/customizer/blog-single-settings.php:53
+msgid "Show Comment"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:21
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:27
+msgid "to change logo,favicon etc"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:32
+msgid "Navigation Settings"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:34
+msgid "Setting Your Menu"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:41
+msgid "Setting Your Page"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:46
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:48
+msgid "Setting Your Blog"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:53
+msgid "Single Blog Settings"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:55
+msgid "Setting Your Singel Blog"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:60
+msgid "Shop Settings"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:62
+msgid "Setting Your Shop page"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:67
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:69
+msgid "Setting Your Footer"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:74
+msgid "Styling Settings"
+msgstr ""
+
+#: inc/customizer/customizer-config.php:76
+msgid "Setting Your font"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:6
+msgid "Footer Style"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:18
+msgid "Footer Widget Per Row"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:22
+msgid "1"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:23
+msgid "2"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:24 inc/shortcode/xs-blog.php:57
+#: inc/shortcode/xs-crowdfunding.php:56 inc/shortcode/xs-event-tab.php:41
+#: inc/shortcode/xs-event.php:41
+msgid "3"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:25
+msgid "4"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:31
+msgid "Enable Fixed Footer"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:50 inc/customizer/nav-settings.php:49
+#: inc/shortcode/style/xs-button.php:258 inc/shortcode/style/xs-button.php:290
+#: inc/shortcode/xs-button.php:178 inc/shortcode/xs-button.php:210
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:64
+msgid "Widget Title Color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:78
+msgid "Footer text color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:92
+msgid "Footer link color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:120
+msgid "Copyright Section"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:126
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:135 inc/helpers.php:564
+msgid "Copyrights By Xpeedstudio - 2018"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:141
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:159
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:181
+msgid "Link color"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:207
+#: inc/widgets/social/class-widget-social.php:60
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:221
+#: inc/widgets/social/class-widget-social.php:64
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:235
+#: inc/widgets/social/class-widget-social.php:80
+msgid "Dribbble"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:249
+#: inc/widgets/social/class-widget-social.php:72
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer/footer-settings.php:263
+#: inc/widgets/social/class-widget-social.php:76
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer/general-settings.php:5
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/general-settings.php:12
+msgid "Show Preloader"
+msgstr ""
+
+#: inc/customizer/general-settings.php:23
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:5
+msgid "Header Style"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:17
+#: inc/shortcode/xs-featured-crowdfunding.php:219
+#: inc/shortcode/xs-featured-crowdfunding.php:303
+#: inc/shortcode/xs-video.php:139
+msgid "Show Border"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:28 inc/shortcode/style/xs-button.php:300
+#: inc/shortcode/xs-button.php:222
+#: inc/shortcode/xs-featured-crowdfunding.php:229
+#: inc/shortcode/xs-featured-crowdfunding.php:313
+#: inc/shortcode/xs-video.php:178
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:67
+msgid "Menu Color"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:93
+msgid "Menu Hover Color"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:110 inc/customizer/nav-settings.php:128
+msgid "Sub Menu Color"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:146 inc/customizer/nav-settings.php:158
+msgid "Show Login"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:169
+msgid "Dashboard Url"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:184
+msgid "Show CTA Button"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:203
+msgid "CTA Button Label"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:212 inc/helpers.php:534
+#: inc/shortcode/xs-featured-crowdfunding.php:72
+#: inc/shortcode/xs-featured-crowdfunding.php:73
+msgid "start a campaign"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:225
+msgid "CTA Button Link"
+msgstr ""
+
+#: inc/customizer/nav-settings.php:233 inc/helpers.php:535
+msgid "#"
+msgstr ""
+
+#: inc/customizer/page-settings.php:5
+msgid "Page Sidebar Position"
+msgstr ""
+
+#: inc/customizer/shop-setting.php:5
+msgid "Shop Sidebar Position"
+msgstr ""
+
+#: inc/customizer/shop-setting.php:51 inc/helpers.php:552
+msgid "Shopping Now"
+msgstr ""
+
+#: inc/customizer/style-settings.php:5
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer/style-settings.php:23
+msgid "Heading Font"
+msgstr ""
+
+#: inc/helpers.php:181
+msgid "All Categories"
+msgstr ""
+
+#: inc/helpers.php:224 inc/includes/template-tags.php:102
+#: inc/includes/template-tags.php:130
+msgid "Edit"
+msgstr ""
+
+#: inc/helpers.php:246 template-parts/header/content-blog-header.php:28
+msgid "Home"
+msgstr ""
+
+#: inc/helpers.php:273 inc/helpers.php:277 inc/helpers.php:281
+msgid "Blogs for"
+msgstr ""
+
+#: inc/helpers.php:285
+msgid "Author Blogs"
+msgstr ""
+
+#: inc/helpers.php:288
+msgid "Blogs"
+msgstr ""
+
+#: inc/helpers.php:291
+msgid "Search Result"
+msgstr ""
+
+#: inc/helpers.php:294
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/helpers.php:451 inc/helpers.php:476 inc/helpers.php:508
+#: inc/includes/template-tags.php:89
+msgid "0"
+msgstr ""
+
+#: inc/hooks/blog.php:10
+msgid "Services short note"
+msgstr ""
+
+#: inc/hooks/blog.php:12
+msgid "Add your services short note which show in homepage"
+msgstr ""
+
+#: inc/hooks/blog.php:56
+msgid "Search.."
+msgstr ""
+
+#: inc/hooks/tgmpa-plugins.php:12
+msgid "Unyson"
+msgstr ""
+
+#: inc/hooks/tgmpa-plugins.php:17
+msgid "Elementor"
+msgstr ""
+
+#: inc/hooks/tgmpa-plugins.php:22
+msgid "Kirki"
+msgstr ""
+
+#: inc/hooks/tgmpa-plugins.php:27
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/hooks/tgmpa-plugins.php:32
+msgid "fundpress Featurs"
+msgstr ""
+
+#: inc/hooks/tgmpa-plugins.php:38
+msgid "WP Fundraising"
+msgstr ""
+
+#: inc/hooks/tgmpa-plugins.php:44
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/hooks/theme-demos.php:8
+msgid "Demo"
+msgstr ""
+
+#: inc/hooks/widget-register.php:14
+msgid "Blog Widget Area"
+msgstr ""
+
+#: inc/hooks/widget-register.php:16
+msgid "Appears on posts."
+msgstr ""
+
+#: inc/hooks/widget-register.php:25
+msgid "Page Widget Area"
+msgstr ""
+
+#: inc/hooks/widget-register.php:27
+msgid "Appears on Pages."
+msgstr ""
+
+#: inc/hooks/widget-register.php:36
+msgid "Shop Widget Area"
+msgstr ""
+
+#: inc/hooks/widget-register.php:38
+msgid "Appears on Shop."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:386 inc/includes/plugin-activator.php:827
+#: inc/includes/plugin-activator.php:2533
+#: inc/includes/plugin-activator.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:387 inc/includes/plugin-activator.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:388 inc/includes/plugin-activator.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:934 inc/includes/plugin-activator.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:1121
+#: inc/includes/plugin-activator.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/includes/plugin-activator.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2549 inc/shortcode/style/xs-button.php:99
+msgid "Type"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3509
+#: inc/includes/plugin-activator.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3509
+#: inc/includes/plugin-activator.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/includes/plugin-activator.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/includes/template-tags.php:36
+msgid "Previous Post"
+msgstr ""
+
+#: inc/includes/template-tags.php:49
+msgid "Next Post"
+msgstr ""
+
+#: inc/includes/template-tags.php:75 template-parts/post/content.php:26
+#: template-parts/post/layout-style1.php:19
+msgid "Featured"
+msgstr ""
+
+#: inc/includes/template-tags.php:81 inc/includes/template-tags.php:123
+msgid "By "
+msgstr ""
+
+#: inc/includes/template-tags.php:89
+msgid "%"
+msgstr ""
+
+#: inc/includes/template-tags.php:279
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s</span>"
+msgstr ""
+
+#: inc/includes/template-tags.php:279
+msgid "says:"
+msgstr ""
+
+#: inc/includes/template-tags.php:290
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/includes/template-tags.php:293
+msgid "(Edit)"
+msgstr ""
+
+#: inc/includes/template-tags.php:306 template-parts/post/content-single.php:60
+msgid "Pages:"
+msgstr ""
+
+#: inc/includes/template-tags.php:312 template-parts/post/content-single.php:66
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: inc/includes/template-tags.php:313 template-parts/post/content-single.php:67
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: inc/shortcode/controls/xs-icon.php:863
+#: inc/shortcode/controls/xs-icon.php:864
+msgid "Select Icon"
+msgstr ""
+
+#: inc/shortcode/style/blog/style2.php:24
+msgid "Continue Read"
+msgstr ""
+
+#: inc/shortcode/style/event/style1.php:28 inc/shortcode/xs-event-tab.php:134
+msgid "View Event"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:74
+msgid "Extra Small"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:75
+msgid "Small"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:76
+msgid "Medium"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:77
+msgid "Large"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:78
+msgid "Extra Large"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:103 inc/shortcode/xs-map.php:248
+msgid "Default"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:104
+msgid "Info"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:105
+msgid "Success"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:106
+msgid "Warning"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:107
+msgid "Danger"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:115
+msgid "Text"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:117 inc/shortcode/style/xs-button.php:118
+msgid "Click me"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:124 inc/shortcode/xs-button.php:46
+#: inc/shortcode/xs-featured-crowdfunding.php:89
+#: inc/shortcode/xs-image-box.php:80 inc/shortcode/xs-partner.php:68
+#: inc/shortcode/xs-video.php:49
+msgid "Link"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:126
+msgid "https://your-link.com"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:151 inc/shortcode/xs-heading.php:98
+msgid "Justified"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:162
+msgid "Size"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:180 inc/shortcode/xs-button.php:68
+msgid "Icon Position"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:184 inc/shortcode/xs-button.php:72
+msgid "Before"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:185 inc/shortcode/xs-button.php:73
+msgid "After"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:195
+msgid "Icon Spacing"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:214
+msgid "View"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:241 inc/shortcode/xs-button.php:159
+msgid "Normal"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:247 inc/shortcode/style/xs-button.php:280
+#: inc/shortcode/xs-button.php:166 inc/shortcode/xs-button.php:199
+msgid "Text Color"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:274 inc/shortcode/xs-button.php:192
+msgid "Hover"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:313
+msgid "Hover Animation"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:334 inc/shortcode/xs-button.php:118
+msgid "Border Radius"
+msgstr ""
+
+#: inc/shortcode/style/xs-button.php:352 inc/shortcode/xs-button.php:136
+msgid "Padding"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:16
+msgid "Crowdmerc Post"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:32
+msgid "Post"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:55 inc/shortcode/xs-crowdfunding.php:54
+#: inc/shortcode/xs-event-tab.php:39 inc/shortcode/xs-event.php:39
+#: inc/shortcode/xs-faq.php:36
+msgid "Post count"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:65 inc/shortcode/xs-crowdfunding.php:64
+msgid "Select Column"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:81
+msgid "Select category"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:91 inc/shortcode/xs-event.php:50
+#: inc/shortcode/xs-faq.php:46
+msgid "Pagination"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:94 inc/shortcode/xs-crowdfunding.php:90
+#: inc/shortcode/xs-crowdfunding.php:100 inc/shortcode/xs-event.php:53
+#: inc/shortcode/xs-faq.php:49 inc/shortcode/xs-featured-crowdfunding.php:104
+#: inc/shortcode/xs-featured-crowdfunding.php:222
+#: inc/shortcode/xs-featured-crowdfunding.php:306 inc/shortcode/xs-map.php:92
+#: inc/shortcode/xs-map.php:105 inc/shortcode/xs-map.php:118
+msgid "Show"
+msgstr ""
+
+#: inc/shortcode/xs-blog.php:95 inc/shortcode/xs-crowdfunding.php:91
+#: inc/shortcode/xs-crowdfunding.php:101 inc/shortcode/xs-event.php:54
+#: inc/shortcode/xs-faq.php:50 inc/shortcode/xs-featured-crowdfunding.php:105
+#: inc/shortcode/xs-featured-crowdfunding.php:223
+#: inc/shortcode/xs-featured-crowdfunding.php:307 inc/shortcode/xs-map.php:93
+#: inc/shortcode/xs-map.php:106 inc/shortcode/xs-map.php:119
+msgid "Hide"
+msgstr ""
+
+#: inc/shortcode/xs-button.php:14 inc/shortcode/xs-button.php:29
+msgid "Crowdmerc Button"
+msgstr ""
+
+#: inc/shortcode/xs-button.php:36 inc/shortcode/xs-contact-info.php:157
+#: inc/shortcode/xs-image-box.php:70
+msgid "Label"
+msgstr ""
+
+#: inc/shortcode/xs-button.php:38 inc/shortcode/xs-button.php:39
+msgid "Learn more "
+msgstr ""
+
+#: inc/shortcode/xs-button.php:48 inc/shortcode/xs-featured-crowdfunding.php:91
+#: inc/shortcode/xs-image-box.php:82 inc/shortcode/xs-partner.php:70
+#: inc/shortcode/xs-video.php:51
+msgid "http://your-link.com"
+msgstr ""
+
+#: inc/shortcode/xs-button.php:110
+msgid "Button Style"
+msgstr ""
+
+#: inc/shortcode/xs-button.php:149 inc/shortcode/xs-image-box.php:134
+#: inc/shortcode/xs-image-box.php:184 inc/shortcode/xs-image-box.php:255
+#: inc/shortcode/xs-testimonial.php:139 inc/shortcode/xs-testimonial.php:181
+#: inc/shortcode/xs-testimonial.php:220
+msgid "Typography"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:14 inc/shortcode/xs-contact-info.php:30
+msgid "Crowdmerc Contact Info"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:37
+msgid "Phone Number"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:40 inc/shortcode/xs-contact-info.php:41
+msgid "+88 00 11 22 33"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:48
+msgid "Email Address"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:51 inc/shortcode/xs-contact-info.php:52
+msgid "name@yourdomain.com"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:59
+msgid "Address"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:62 inc/shortcode/xs-contact-info.php:63
+msgid "Welington City, Beside Pull, Australia"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:70 inc/shortcode/xs-gallery.php:36
+#: inc/shortcode/xs-icon-box.php:62 inc/shortcode/xs-icon-box.php:83
+#: inc/shortcode/xs-image-box.php:36 inc/shortcode/xs-testimonial.php:92
+msgid "Image"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:92
+msgid "Map Setting"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:99
+msgid "latitude"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:102 inc/shortcode/xs-contact-info.php:103
+msgid "37.4850753"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:113 inc/shortcode/xs-contact-info.php:114
+msgid "-122.1496129"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:138 inc/shortcode/xs-contact-info.php:168
+#: inc/shortcode/xs-contact-info.php:205 inc/shortcode/xs-icon-box.php:141
+#: inc/shortcode/xs-icon-box.php:266 inc/shortcode/xs-image-box.php:109
+#: inc/shortcode/xs-image-box.php:159 inc/shortcode/xs-image-box.php:209
+#: inc/shortcode/xs-testimonial.php:125 inc/shortcode/xs-testimonial.php:165
+#: inc/shortcode/xs-testimonial.php:206
+msgid "Color"
+msgstr ""
+
+#: inc/shortcode/xs-contact-info.php:197
+msgid "value"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:16
+msgid "Crowdmerc Crowdfunding Grid"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:32
+#: inc/shortcode/xs-featured-crowdfunding.php:32
+msgid "Product element"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:43
+msgid "style 1"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:44
+msgid "style 2"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:45
+msgid "style 3"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:46
+msgid "style 4"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:70
+msgid "4 Column"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:77
+msgid "Category"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:80
+msgid "design,fashion"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:81
+msgid "add you multiple category use comma separator"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:97
+msgid "Show Filter"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:108
+msgid "Filter"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:112
+msgid "successful"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:113
+msgid "expired"
+msgstr ""
+
+#: inc/shortcode/xs-crowdfunding.php:114
+msgid "valid"
+msgstr ""
+
+#: inc/shortcode/xs-event-tab.php:16
+msgid "Crowdmerc Event Tab"
+msgstr ""
+
+#: inc/shortcode/xs-event-tab.php:32
+msgid "Event Tab"
+msgstr ""
+
+#: inc/shortcode/xs-event-tab.php:142 single-event.php:120
+msgid "Speaker:"
+msgstr ""
+
+#: inc/shortcode/xs-event-tab.php:142
+msgid "WIlliam Hannah, CEO, Xpeedstudio"
+msgstr ""
+
+#: inc/shortcode/xs-event-tab.php:144
+msgid "Vanue:"
+msgstr ""
+
+#: inc/shortcode/xs-event.php:16
+msgid "Crowdmerc Event"
+msgstr ""
+
+#: inc/shortcode/xs-event.php:32
+msgid "Event Post"
+msgstr ""
+
+#: inc/shortcode/xs-faq.php:14 inc/shortcode/xs-faq.php:29
+msgid "Crowdmerc Faq"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:16
+msgid "Fundpress Crowdfunding Featured"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:39
+msgid "Select Product"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:49 inc/shortcode/xs-team.php:70
+#: inc/shortcode/xs-video.php:59
+msgid "Thumbnail Image"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:61 inc/shortcode/xs-team.php:82
+#: inc/shortcode/xs-video.php:74
+msgid "Image Size"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:69
+msgid "Button Label One"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:79
+msgid "Button Label Two"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:82
+#: inc/shortcode/xs-featured-crowdfunding.php:83
+msgid "invest Now"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:101
+msgid "Show Funded Bar"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:121
+msgid "Title Color"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:138
+msgid "Price Color"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:150
+msgid "Price Label Color"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:163
+msgid "Button One Style"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:171
+#: inc/shortcode/xs-featured-crowdfunding.php:254
+msgid "Button Color"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:183
+#: inc/shortcode/xs-featured-crowdfunding.php:266
+msgid "Button Hover Color"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:195
+#: inc/shortcode/xs-featured-crowdfunding.php:207
+#: inc/shortcode/xs-featured-crowdfunding.php:278
+#: inc/shortcode/xs-featured-crowdfunding.php:290
+msgid "Button Bg Color"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:246
+msgid "Button Two Style"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:374
+msgid "Pledged"
+msgstr ""
+
+#: inc/shortcode/xs-featured-crowdfunding.php:375
+msgid "Goal"
+msgstr ""
+
+#: inc/shortcode/xs-gallery.php:14 inc/shortcode/xs-gallery.php:29
+msgid "Crowdmerc Gallery"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:15 inc/shortcode/xs-heading.php:29
+msgid "Crowdmerc Heading"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:36 inc/shortcode/xs-icon-box.php:58
+#: inc/shortcode/xs-video.php:37
+msgid "Choose Style"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:40
+msgid "Styllish Title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:41
+msgid "Watermark Title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:51 inc/shortcode/xs-heading.php:71
+#: inc/shortcode/xs-icon-box.php:39 inc/shortcode/xs-image-box.php:51
+msgid "Add title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:52 inc/shortcode/xs-heading.php:72
+#: inc/shortcode/xs-icon-box.php:40 inc/shortcode/xs-image-box.php:52
+msgid "Add Title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:58
+msgid "Heading Sub Title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:62
+msgid ""
+"One morning, when Gregor Samsa woke from troubled dreams, he found himself "
+"transformed in his bed into a horrible vermin. He lay on his armour-like "
+"back, and if he lifted his head a little he could see his brown belly."
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:68 inc/shortcode/xs-heading.php:243
+msgid "Water Title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:111 inc/shortcode/xs-icon-box.php:36
+#: inc/shortcode/xs-icon-box.php:134 inc/shortcode/xs-image-box.php:48
+#: inc/shortcode/xs-image-box.php:101
+msgid "Title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:118
+msgid "Title color"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:128 inc/shortcode/xs-heading.php:211
+#: inc/shortcode/xs-icon-box.php:151 inc/shortcode/xs-icon-box.php:279
+msgid "Margin Bottom"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:158 inc/shortcode/xs-icon-box.php:46
+#: inc/shortcode/xs-icon-box.php:181 inc/shortcode/xs-image-box.php:59
+#: inc/shortcode/xs-image-box.php:151
+msgid "Sub Title"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:165 inc/shortcode/xs-heading.php:231
+#: inc/shortcode/xs-heading.php:253 inc/shortcode/xs-icon-box.php:188
+#: inc/shortcode/xs-icon-box.php:236
+msgid "color"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:184 inc/shortcode/xs-icon-box.php:209
+msgid "Border"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:191 inc/shortcode/xs-icon-box.php:216
+#: inc/shortcode/xs-video.php:152
+msgid "Border Width"
+msgstr ""
+
+#: inc/shortcode/xs-heading.php:262
+msgid "Opacity"
+msgstr ""
+
+#: inc/shortcode/xs-icon-box.php:15 inc/shortcode/xs-icon-box.php:29
+msgid "Crowdmerc Icon Box"
+msgstr ""
+
+#: inc/shortcode/xs-icon-box.php:50
+msgid "Start fundraising in minutes.No goal requirements, no deadlines."
+msgstr ""
+
+#: inc/shortcode/xs-icon-box.php:246
+msgid "Hover color"
+msgstr ""
+
+#: inc/shortcode/xs-icon-box.php:259
+msgid "Icon/Image"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:14
+msgid "Crowdmerc Image Box"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:29
+msgid "Crowdmerc Image Box 02"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:62
+msgid ""
+"When an unknown printer took a galley of type and scrambled it to make a "
+"type specimen book. It has survived not only five centuries"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:72 inc/shortcode/xs-image-box.php:73
+msgid "create a project"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:121 inc/shortcode/xs-image-box.php:171
+msgid "Hover Color"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:220
+msgid "Button hover color"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:231 inc/shortcode/xs-video.php:192
+msgid "Button BG Color"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:242
+msgid "Button BG hover color"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:271
+msgid "Background"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:280
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/shortcode/xs-image-box.php:291
+msgid "Overlay hover color"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:20
+msgid "crowdmerc Map"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:40
+msgid "London Eye, London, United Kingdom"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:45
+msgid "Map Center"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:56
+msgid "Initial Zoom"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:75
+msgid "Scrollwheel Zoom"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:79
+msgid "Enabled"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:80
+msgid "Disabled"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:88
+msgid "Zoom Controls"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:101
+msgid "Street View Controls"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:114
+msgid "Map Type Controls (Map/Satellite)"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:127
+msgid "Is Map Draggable?"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:142 inc/shortcode/xs-map.php:164
+msgid "Map Style"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:149
+msgid "Map Height"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:169
+msgid ""
+"You can add own map styles within your theme. Add file with styles array in ."
+"json format into fundpress/google-map-styles/ folder in your theme. File "
+"must be minified"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:178
+msgid "Pins"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:187
+msgid "Pin Address"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:197
+msgid "Pin Description"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:206
+msgid "Pin Icon"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:214
+msgid "Initial State"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:218
+msgid "Vsible"
+msgstr ""
+
+#: inc/shortcode/xs-map.php:219
+msgid "Hidden"
+msgstr ""
+
+#: inc/shortcode/xs-partner.php:14 inc/shortcode/xs-partner.php:30
+msgid "Crowdmerc Logo Carousel"
+msgstr ""
+
+#: inc/shortcode/xs-partner.php:40
+msgid "Style 1"
+msgstr ""
+
+#: inc/shortcode/xs-partner.php:41
+msgid "Style 2"
+msgstr ""
+
+#: inc/shortcode/xs-partner.php:58
+msgid "Images"
+msgstr ""
+
+#: inc/shortcode/xs-shape-background.php:14
+msgid "Crowdmerc Shade Background"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:14 inc/shortcode/xs-team.php:29
+msgid "Crowdmerc Team"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:44 inc/shortcode/xs-team.php:47
+msgid "Team Member"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:57
+msgid "Position"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:60
+msgid "CEO"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:104
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:105
+msgid "URL of the Facebook of the team member."
+msgstr ""
+
+#: inc/shortcode/xs-team.php:118
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:119
+msgid "URL of the Twitter of the team member."
+msgstr ""
+
+#: inc/shortcode/xs-team.php:132
+msgid "Dribbble URL"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:133
+msgid "URL of the Dribbble of the team member."
+msgstr ""
+
+#: inc/shortcode/xs-team.php:147
+msgid "Team Style"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:161
+msgid "Name color"
+msgstr ""
+
+#: inc/shortcode/xs-team.php:172
+msgid "Possition color"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:14 inc/shortcode/xs-testimonial.php:30
+msgid "Crowdmerc Testimonial"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:43
+msgid "Tetimonial"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:48 inc/shortcode/xs-testimonial.php:55
+#: inc/shortcode/xs-testimonial.php:62
+msgid "Testimonial #1"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:49 inc/shortcode/xs-testimonial.php:56
+#: inc/shortcode/xs-testimonial.php:63
+msgid ""
+"The bedding was hardly able to cover it and seemed ready to slide off any "
+"moment. His many legs, pitifully thin compared with the size of the rest of "
+"him, waved about helplessly as he looked"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:50 inc/shortcode/xs-testimonial.php:57
+#: inc/shortcode/xs-testimonial.php:64
+msgid "CEO, Pranklin Agency"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:71
+msgid "Client Name"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:78 inc/shortcode/xs-testimonial.php:157
+msgid "Testimonial"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:85
+msgid "Designation"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:117
+msgid "Name"
+msgstr ""
+
+#: inc/shortcode/xs-testimonial.php:198
+msgid "Rating"
+msgstr ""
+
+#: inc/shortcode/xs-video.php:14 inc/shortcode/xs-video.php:29
+msgid "crowdmerc Video Box"
+msgstr ""
+
+#: inc/shortcode/xs-video.php:40
+msgid "With Thumbnail Image"
+msgstr ""
+
+#: inc/shortcode/xs-video.php:41
+msgid "Without Thumbnail Image"
+msgstr ""
+
+#: inc/shortcode/xs-video.php:84
+msgid "Image Max Width"
+msgstr ""
+
+#: inc/shortcode/xs-video.php:204
+msgid "Icon Color"
+msgstr ""
+
+#: inc/widgets/contact/class-widget-contact.php:15
+msgid "Crowdmerc Contact"
+msgstr ""
+
+#: inc/widgets/contact/class-widget-contact.php:104
+msgid "Contact"
+msgstr ""
+
+#: inc/widgets/contact/class-widget-contact.php:127
+#: inc/widgets/recent-post/class-widget-recent-post.php:106
+#: inc/widgets/social/class-widget-social.php:178
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/contact/class-widget-contact.php:132
+msgid "Address Two:"
+msgstr ""
+
+#: inc/widgets/contact/class-widget-contact.php:138
+msgid "Mobile:"
+msgstr ""
+
+#: inc/widgets/contact/class-widget-contact.php:144 single-event.php:155
+msgid "Email:"
+msgstr ""
+
+#: inc/widgets/contact/class-widget-contact.php:150
+msgid "Website:"
+msgstr ""
+
+#: inc/widgets/recent-post/class-widget-recent-post.php:17
+msgid "Crowdmerc Recent Post"
+msgstr ""
+
+#: inc/widgets/recent-post/class-widget-recent-post.php:64
+msgid "Posted by"
+msgstr ""
+
+#: inc/widgets/recent-post/class-widget-recent-post.php:76
+msgid "No Post Available"
+msgstr ""
+
+#: inc/widgets/recent-post/class-widget-recent-post.php:97
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/recent-post/class-widget-recent-post.php:110
+msgid "Number Of Posts:"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:14
+msgid "Crowdmerc Social"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:68
+msgid "google"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:135
+msgid "Social"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:169
+msgid "Style:"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:182
+msgid "Facebook:"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:188
+msgid "Twitter:"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:194
+msgid "Google Plus:"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:200
+msgid "Pinterest:"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:206
+msgid "Instagram:"
+msgstr ""
+
+#: inc/widgets/social/class-widget-social.php:212
+msgid "Dribbble:"
+msgstr ""
+
+#: single-event.php:63
+msgid "Event Detalis"
+msgstr ""
+
+#: single-event.php:72
+msgid "Map Location"
+msgstr ""
+
+#: single-event.php:75
+msgid "Contact us"
+msgstr ""
+
+#: single-event.php:127
+msgid "Organized by:"
+msgstr ""
+
+#: single-event.php:134
+msgid "Start:"
+msgstr ""
+
+#: single-event.php:141
+msgid "Venue:"
+msgstr ""
+
+#: single-event.php:148
+msgid "Phone:"
+msgstr ""
+
+#: single-event.php:168
+msgid "Event Sponsor"
+msgstr ""
+
+#: template-parts/footer/footer-2.php:61
+msgid "Follow us"
+msgstr ""
+
+#: template-parts/navigation/content-nav.php:63
+#: template-parts/navigation/content-nav1.php:62
+msgid "Log in"
+msgstr ""
+
+#: template-parts/navigation/content-nav.php:74
+#: template-parts/navigation/content-nav1.php:73
+msgid "Dashboard"
+msgstr ""
+
+#: template-parts/post/content-none.php:9
+msgid "Nothing found!"
+msgstr ""
+
+#: template-parts/post/content-none.php:10
+msgid "It looks like nothing was found here. Maybe try a search?"
+msgstr ""
+
+#: template-parts/post/content-single.php:80
+msgid "Tags"
+msgstr ""
+
+#: template-parts/post/content-single.php:120
+msgid "Prev Post"
+msgstr ""
+
+#: template-parts/post/content-single.php:128
+msgid "next Post"
+msgstr ""
+
+#: template-parts/post/content.php:42 template-parts/post/layout-style1.php:35
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/post/layout-style2.php:30
+msgid "By"
+msgstr ""
+
+#: template-parts/post/layout-style4.php:29
+msgid "learn more"
+msgstr ""
+
+#: woocommerce/single-product.php:52
+msgid "by"
+msgstr ""
+
+#: woocommerce/single-product/related.php:63
+msgid "Details"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Product Description"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themeforest.net/user/xpeedstudio/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Crowdmerc is powerful and modern multipurpose responsive WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XpeedStudio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.xpeedstudio.com"
+msgstr ""
