@@ -108,8 +108,8 @@ if (!class_exists('WP_FundRaising_Donation')) {
         function wf_donation_product_tabs( $original_prodata_tabs) {
 
             $fundraising_tab = array(
-                'donation' => array( 'label' => esc_html__( 'Donation', 'wp-fundraising' ), 'target' => 'wf_donation_options', 'class' => array( 'show_if_wf_donation' ), ),
-                'donation_level' => array( 'label' => esc_html__( 'Donation Level', 'wp-fundraising' ), 'target' => 'wf_donation_level_options', 'class' => array( 'show_if_wf_donation' ), ),
+                'donation' => array( 'label' => esc_html__( 'Inversión', 'wp-fundraising' ), 'target' => 'wf_donation_options', 'class' => array( 'show_if_wf_donation' ), ),
+                'donation_level' => array( 'label' => esc_html__( 'Nivel de donación', 'wp-fundraising' ), 'target' => 'wf_donation_level_options', 'class' => array( 'show_if_wf_donation' ), ),
             );
             $insert_at_position = 2; // Change this for desire position
             $tabs = array_slice( $original_prodata_tabs, 0, $insert_at_position, true ); // First part of original tabs
@@ -134,9 +134,9 @@ if (!class_exists('WP_FundRaising_Donation')) {
             woocommerce_wp_text_input(
                 array(
                     'id'            => '_wfd_funding_goal',
-                    'label'         => esc_html__( 'Donation Goal ('.get_woocommerce_currency_symbol().')', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'Donation goal','wp-fundraising' ),
-                    'description'   => esc_html__('Enter the funding goal', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'Meta de inversión ('.get_woocommerce_currency_symbol().')', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'Meta de inversión','wp-fundraising' ),
+                    'description'   => esc_html__('Ingresa la meta de inversión ', 'wp-fundraising' ),
                     'desc_tip'      => true,
                     'type' 			=> 'text',
                 )
@@ -144,9 +144,9 @@ if (!class_exists('WP_FundRaising_Donation')) {
             woocommerce_wp_text_input(
                 array(
                     'id'            => '_wfd_duration_start',
-                    'label'         => esc_html__( 'Start date- mm/dd/yyyy or dd-mm-yyyy', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'Start time of this campaign', 'wp-fundraising' ),
-                    'description'   => esc_html__( 'Enter start of this campaign', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'Fecha de inicio- mm/dd/yyyy o dd-mm-yyyy', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'Fecha de inicio de este proyecto', 'wp-fundraising' ),
+                    'description'   => esc_html__( 'Ingresa la fecha de inicio', 'wp-fundraising' ),
                     'desc_tip'      => true,
                     'type' 			=> 'text',
                 )
@@ -154,9 +154,9 @@ if (!class_exists('WP_FundRaising_Donation')) {
             woocommerce_wp_text_input(
                 array(
                     'id'            => '_wfd_duration_end',
-                    'label'         => esc_html__( 'End date- mm/dd/yyyy or dd-mm-yyyy', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'End time of this campaign', 'wp-fundraising' ),
-                    'description'   => esc_html__( 'Enter end time of this campaign', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'Fecha de terminación- mm/dd/yyyy o dd-mm-yyyy', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'Fecha de terminación', 'wp-fundraising' ),
+                    'description'   => esc_html__( 'Ingresa la fecha de terminación de este proyecto', 'wp-fundraising' ),
                     'desc_tip'      => true,
                     'type' 			=> 'text',
                 )
@@ -168,7 +168,7 @@ if (!class_exists('WP_FundRaising_Donation')) {
                     'label'         => esc_html__( 'Video Url', 'wp-fundraising' ),
                     'placeholder'   => esc_attr__( 'Video url', 'wp-fundraising' ),
                     'desc_tip'      => true,
-                    'description'   => esc_html__( 'Enter a video url to show your video in campaign details page', 'wp-fundraising' )
+                    'description'   => esc_html__( 'Ingresa el URL del video', 'wp-fundraising' )
                 )
             );
 
@@ -185,8 +185,8 @@ if (!class_exists('WP_FundRaising_Donation')) {
             woocommerce_wp_select(
                 array(
                     'id'            => '_wfd_country',
-                    'label'         => esc_html__( 'Country', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'Country', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'País', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'País', 'wp-fundraising' ),
                     'class'         => 'select2 _wf_country',
                     'options'       => $countries
                 )
@@ -196,9 +196,9 @@ if (!class_exists('WP_FundRaising_Donation')) {
             woocommerce_wp_text_input(
                 array(
                     'id'            => '_wfd_location',
-                    'label'         => esc_html__( 'Location', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'Location', 'wp-fundraising' ),
-                    'description'   => esc_html__( 'Location of this campaign','wp-fundraising' ),
+                    'label'         => esc_html__( 'Ubicación', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'Ubicación', 'wp-fundraising' ),
+                    'description'   => esc_html__( 'Ubicación de este proyecto','wp-fundraising' ),
                     'desc_tip'      => true,
                     'type'          => 'text'
                 )
@@ -286,18 +286,18 @@ if (!class_exists('WP_FundRaising_Donation')) {
                         ?>
                         <div class="options_group donation_level-item">
                             <p class="form-field _wf_donation_level_amount_field ">
-                                <label for="_wf_donation_level_amount"><?php esc_html_e('Pledge Amount','wp-fundraising');?></label>
+                                <label for="_wf_donation_level_amount"><?php esc_html_e('Monto de inversión','wp-fundraising');?></label>
                                 <input type="text" class="short" name="_wf_donation_level_amount[]" value="<?php if(isset($field['_wf_donation_level_amount']) && $field['_wf_donation_level_amount'] != '') echo sanitize_text_field( $field['_wf_donation_level_amount'] ); ?>" />
                             </p>
                             <p class="form-field _wf_donation_level_title_field ">
-                                <label for="_wf_donation_level_title"><?php esc_html_e('Donation Level Title','wp-fundraising');?></label>
+                                <label for="_wf_donation_level_title"><?php esc_html_e('Título de nivel de inversión','wp-fundraising');?></label>
                                 <input type="text" class="short" name="_wf_donation_level_title[]" value="<?php if(isset($field['_wf_donation_level_title']) && $field['_wf_donation_level_title'] != '') echo sanitize_text_field( $field['_wf_donation_level_title'] ); ?>" />
                             </p>
                             <p class="form-field _wf_donation_level_description_field ">
-                                <label for="_wf_donation_level_description"><?php esc_html_e('Donation Level Description','wp-fundraising');?></label>
+                                <label for="_wf_donation_level_description"><?php esc_html_e('Descripción de nivel de inversión','wp-fundraising');?></label>
                                 <textarea name="_wf_donation_level_description[]"><?php if(isset($field['_wf_donation_level_description']) && $field['_wf_donation_level_description'] != '') echo sanitize_textarea_field( $field['_wf_donation_level_description'] ); ?></textarea>
                             </p>
-                            <p class="form-field "><a class="button remove-donation-level-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                            <p class="form-field "><a class="button remove-donation-level-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
                         </div><?php
                     }
@@ -306,18 +306,18 @@ if (!class_exists('WP_FundRaising_Donation')) {
                 ?><div class="options_group donation_level-item"><?php
                     ?>
                     <p class="form-field _wf_donation_level_amount_field ">
-                        <label for="_wf_donation_level_amount"><?php esc_html_e('Pledge Amount','wp-fundraising');?></label>
+                        <label for="_wf_donation_level_amount"><?php esc_html_e('Monto de inversión','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_donation_level_amount[]" />
                     </p>
                     <p class="form-field _wf_donation_level_title_field ">
-                        <label for="_wf_donation_level_title"><?php esc_html_e('Donation Level Title','wp-fundraising');?></label>
+                        <label for="_wf_donation_level_title"><?php esc_html_e('Título de nivel de inversión','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_donation_level_title[]" />
                     </p>
                     <p class="form-field _wf_donation_level_description_field ">
-                        <label for="_wf_donation_level_description"><?php esc_html_e('Donation Level Description','wp-fundraising');?></label>
+                        <label for="_wf_donation_level_description"><?php esc_html_e('Descripción de nivel de inversión','wp-fundraising');?></label>
                         <textarea name="_wf_donation_level_description[]"></textarea>
                     </p>
-                    <p class="form-field "><a class="button remove-donation-level-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                    <p class="form-field "><a class="button remove-donation-level-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
 
                     </div><?php
@@ -325,23 +325,23 @@ if (!class_exists('WP_FundRaising_Donation')) {
 
                 <div class="options_group donation_level-item empty-donation-level-row screen-reader-text">
                     <p class="form-field _wf_donation_level_amount_field ">
-                        <label for="_wf_donation_level_amount"><?php esc_html_e('Pledge Amount','wp-fundraising');?></label>
+                        <label for="_wf_donation_level_amount"><?php esc_html_e('Monto de inversión','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_donation_level_amount[]" />
                     </p>
                     <p class="form-field _wf_donation_level_title_field ">
-                        <label for="_wf_donation_level_title"><?php esc_html_e('Donation Level Title','wp-fundraising');?></label>
+                        <label for="_wf_donation_level_title"><?php esc_html_e('Título de nivel de inversión','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_donation_level_title[]" />
                     </p>
                     <p class="form-field _wf_donation_level_description_field ">
-                        <label for="_wf_donation_level_description"><?php esc_html_e('Donation Level Description','wp-fundraising');?></label>
+                        <label for="_wf_donation_level_description"><?php esc_html_e('Descripción de nivel de inversión','wp-fundraising');?></label>
                         <textarea name="_wf_donation_level_description[]"></textarea>
                     </p>
-                    <p class="form-field "><a class="button remove-donation-level-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                    <p class="form-field "><a class="button remove-donation-level-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
                 </div>
             </div>
 
-            <p><a id="add-donation-level-row" class="button" href="#"><?php esc_html_e('Add another','wp-fundraising');?></a></p>
+            <p><a id="add-donation-level-row" class="button" href="#"><?php esc_html_e('Añadir otro','wp-fundraising');?></a></p>
 
             <?php
 

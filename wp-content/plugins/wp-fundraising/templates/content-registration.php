@@ -7,11 +7,13 @@
                             <?php echo wf_login_label(); ?>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!--
+                        <li class="nav-item">
                         <a class="nav-link" href="#signup" role="tab" data-toggle="tab">
                             <?php echo wf_signup_label(); ?>
                         </a>
                     </li>
+                    -->
                 </ul>
             </div>
             <!-- fundpress-tab-nav-v3 -->

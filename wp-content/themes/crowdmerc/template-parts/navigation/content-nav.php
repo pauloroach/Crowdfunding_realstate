@@ -71,7 +71,7 @@ $header_class = ($show_border) ? 'xs-menu-style-border' : '';
                                     }
                                     ?>
 									<li class="xs_sub_menu">
-                                        <a href="<?php echo esc_url($dashboard); ?>" class="xs-logged"><?php echo esc_html__('Dashboard','crowdmerc'); ?></a>
+                                        <a href="<?php echo esc_url($dashboard); ?>" class="xs-logged"><?php echo esc_html__('Mi tablero','crowdmerc'); ?></a>
                                     </li>
 
 								<?php endif; ?>

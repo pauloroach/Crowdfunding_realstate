@@ -178,7 +178,7 @@ if ( !function_exists( 'crowdmerc_get_category_term_list' ) ) :
 
 		$terms		 = get_terms( $taxonomy, $args );
 		$result		 = array();
-		$result[ 0 ]	 = esc_html__( 'All Categories', 'crowdmerc' );
+		$result[ 0 ]	 = esc_html__( 'Todas las categorias', 'crowdmerc' );
 
 		if ( !empty( $terms ) )
 			foreach ( $terms as $term ) {
@@ -221,7 +221,7 @@ function crowdmerc_edit_section() {
 		<div class="container relative">
 	<?php
 	if ( is_user_logged_in() ) {
-		edit_post_link( esc_html__( 'Edit', 'crowdmerc' ), '', '' );
+		edit_post_link( esc_html__( 'Editar', 'crowdmerc' ), '', '' );
 	}
 	?>
 			<span class="section-abc"><?php echo esc_html( get_the_title() ); ?></span>
@@ -243,7 +243,7 @@ if ( !function_exists( 'crowdmerc_get_breadcrumbs' ) ) {
             echo '<li><a href="';
             echo esc_url( get_home_url( '/' ) );
             echo '">';
-            echo esc_html__( 'Home', 'crowdmerc' );
+            echo esc_html__( 'Inicio', 'crowdmerc' );
             echo "</a></li> " . esc_attr( $seperator );
             if ( is_category() || is_single() ) {
                 echo '<li>';
@@ -270,28 +270,28 @@ if ( !function_exists( 'crowdmerc_get_breadcrumbs' ) ) {
         if ( is_tag() ) {
             single_tag_title();
         } elseif ( is_day() ) {
-            echo"<li>" . esc_html__( 'Blogs for', 'crowdmerc' ) . " ";
+            echo"<li>" . esc_html__( 'Blogs para', 'crowdmerc' ) . " ";
             the_time( 'F jS, Y' );
             echo'</li>';
         } elseif ( is_month() ) {
-            echo"<li>" . esc_html__( 'Blogs for', 'crowdmerc' ) . " ";
+            echo"<li>" . esc_html__( 'Blogs para', 'crowdmerc' ) . " ";
             the_time( 'F, Y' );
             echo'</li>';
         } elseif ( is_year() ) {
-            echo"<li>" . esc_html__( 'Blogs for', 'crowdmerc' ) . " ";
+            echo"<li>" . esc_html__( 'Blogs para', 'crowdmerc' ) . " ";
             the_time( 'Y' );
             echo'</li>';
         } elseif ( is_author() ) {
-            echo"<li>" . esc_html__( 'Author Blogs', 'crowdmerc' );
+            echo"<li>" . esc_html__( 'Blogs de autores', 'crowdmerc' );
             echo'</li>';
         } elseif ( isset( $_GET[ 'paged' ] ) && !empty( $_GET[ 'paged' ] ) ) {
             echo "<li>" . esc_html__( 'Blogs', 'crowdmerc' );
             echo'</li>';
         } elseif ( is_search() ) {
-            echo"<li>" . esc_html__( 'Search Result', 'crowdmerc' );
+            echo"<li>" . esc_html__( 'Resultados de busqueda', 'crowdmerc' );
             echo'</li>';
         } elseif ( is_404() ) {
-            echo"<li>" . esc_html__( '404 Not Found', 'crowdmerc' );
+            echo"<li>" . esc_html__( '404 No encontrada', 'crowdmerc' );
             echo'</li>';
         }
         echo '</ol>';
@@ -579,7 +579,7 @@ function crowdmerc_defaults($options){
 		 'show_login' => '',
 		 'crowdmerc_dashbord' => '',
 		 'show_header_cta' => '',
-		 'cta_btn_label' => esc_html__( 'start a campaign', 'crowdmerc' ),
+		 'cta_btn_label' => esc_html__( 'Crear proyecto', 'crowdmerc' ),
 		 'cta_btn_link' => esc_html__( '#', 'crowdmerc' ),
 		 'show_border' => '',
 		 'page_sidebar' => 3,
@@ -609,7 +609,7 @@ function crowdmerc_defaults($options){
 		 'pinterest' => '#',
 		 'footer_widget_layout' => 4,
 		 'show_fixed_footer' => '',
-         'copyright_text' => esc_html__( 'Copyrights By Xpeedstudio - 2018', 'crowdmerc' ),
+         'copyright_text' => esc_html__( 'Copyrights crowdfunding® - 2019', 'crowdmerc' ),
          'map_api' => '',
 	);
 

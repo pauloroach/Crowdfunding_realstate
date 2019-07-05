@@ -142,20 +142,20 @@ if(class_exists('WP_FundRaising')) {
     }
 
     function crowdmerc_single_custom_fund_raised_text(){
-        return  esc_html__('Funds Raised', 'crowdmerc');
+        return  esc_html__('Porcentaje', 'crowdmerc');
     }
 
     function crowdmerc_single_related_campaign_title(){
         return  sprintf(
             '<h2 class="color-navy-blue">%s</h2><span class="xs-separetor dashed-separetor fundpress-separetor"></span>' ,
-            esc_html__('Other Causes', 'crowdmerc')
+            esc_html__('Otros proyectos', 'crowdmerc')
         );
     }
 }
 add_filter( 'woocommerce_order_button_text', 'crowdmerc_custom_order_button_text' );
 
 function crowdmerc_custom_order_button_text() {
-    return esc_html__( 'Fund this campaign', 'crowdmerc' );
+    return esc_html__( 'Invertir en este proyecto', 'crowdmerc' );
 }
 remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display');
 

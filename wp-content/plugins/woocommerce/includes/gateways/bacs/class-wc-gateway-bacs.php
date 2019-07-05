@@ -287,7 +287,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 		$locale  = $this->get_country_locale();
 
 		// Get sortcode label in the $locale array and use appropriate one.
-		$sortcode = isset( $locale[ $country ]['sortcode']['label'] ) ? $locale[ $country ]['sortcode']['label'] : __( 'Sort code', 'woocommerce' );
+		$sortcode = isset( $locale[ $country ]['sortcode']['label'] ) ? $locale[ $country ]['sortcode']['label'] : __( 'Código de Clasificación', 'woocommerce' );
 
 		$bacs_accounts = apply_filters( 'woocommerce_bacs_accounts', $this->account_details );
 
@@ -309,11 +309,11 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 					'woocommerce_bacs_account_fields',
 					array(
 						'bank_name'      => array(
-							'label' => __( 'Bank', 'woocommerce' ),
+							'label' => __( 'Banco', 'woocommerce' ),
 							'value' => $bacs_account->bank_name,
 						),
 						'account_number' => array(
-							'label' => __( 'Account number', 'woocommerce' ),
+							'label' => __( 'Numero de cuenta', 'woocommerce' ),
 							'value' => $bacs_account->account_number,
 						),
 						'sort_code'      => array(
@@ -343,7 +343,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 			}
 
 			if ( $has_details ) {
-				echo '<section class="woocommerce-bacs-bank-details"><h2 class="wc-bacs-bank-details-heading">' . esc_html__( 'Our bank details', 'woocommerce' ) . '</h2>' . wp_kses_post( PHP_EOL . $account_html ) . '</section>';
+				echo '<section class="woocommerce-bacs-bank-details"><h2 class="wc-bacs-bank-details-heading">' . esc_html__( 'Detalles de nuestro banco', 'woocommerce' ) . '</h2>' . wp_kses_post( PHP_EOL . $account_html ) . '</section>';
 			}
 		}
 

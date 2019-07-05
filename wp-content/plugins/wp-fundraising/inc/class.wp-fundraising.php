@@ -158,9 +158,9 @@ if (!class_exists('WP_FundRaising')) {
             woocommerce_wp_text_input(
                 array(
                     'id'            => '_wf_funding_goal',
-                    'label'         => esc_html__( 'Funding Goal ('.get_woocommerce_currency_symbol().')', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'Meta del proyecto ('.get_woocommerce_currency_symbol().')', 'wp-fundraising' ),
                     'placeholder'   => esc_attr__( 'Funding goal','wp-fundraising' ),
-                    'description'   => esc_html__('Enter the funding goal', 'wp-fundraising' ),
+                    'description'   => esc_html__('Ingresa la meta del proyecto', 'wp-fundraising' ),
                     'desc_tip'      => true,
                     'type' 			=> 'text',
                 )
@@ -168,9 +168,9 @@ if (!class_exists('WP_FundRaising')) {
             woocommerce_wp_text_input(
                 array(
                     'id'            => '_wf_duration_start',
-                    'label'         => esc_html__( 'Start date- mm/dd/yyyy or dd-mm-yyyy', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'Start time of this campaign', 'wp-fundraising' ),
-                    'description'   => esc_html__( 'Enter start of this campaign', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'Fecha de inicio- mm/dd/yyyy o dd-mm-yyyy', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'Fecha de inicio de este proyecto', 'wp-fundraising' ),
+                    'description'   => esc_html__( 'ingresa la fecha de inicio', 'wp-fundraising' ),
                     'desc_tip'      => true,
                     'type' 			=> 'text',
                 )
@@ -179,9 +179,9 @@ if (!class_exists('WP_FundRaising')) {
                 woocommerce_wp_text_input(
                     array(
                         'id'            => '_wf_duration_end',
-                        'label'         => esc_html__( 'End date- mm/dd/yyyy or dd-mm-yyyy', 'wp-fundraising' ),
-                        'placeholder'   => esc_attr__( 'End time of this campaign', 'wp-fundraising' ),
-                        'description'   => esc_html__( 'Enter end time of this campaign', 'wp-fundraising' ),
+                        'label'         => esc_html__( 'Fecha de terminación- mm/dd/yyyy or dd-mm-yyyy', 'wp-fundraising' ),
+                        'placeholder'   => esc_attr__( 'Fecha de terminación de este proyecto', 'wp-fundraising' ),
+                        'description'   => esc_html__( 'Ingresa la fecha de terminación', 'wp-fundraising' ),
                         'desc_tip'      => true,
                         'type' 			=> 'text',
                     )
@@ -194,7 +194,7 @@ if (!class_exists('WP_FundRaising')) {
                     'label'         => esc_html__( 'Video Url', 'wp-fundraising' ),
                     'placeholder'   => esc_attr__( 'Video url', 'wp-fundraising' ),
                     'desc_tip'      => true,
-                    'description'   => esc_html__( 'Enter a video url to show your video in campaign details page', 'wp-fundraising' )
+                    'description'   => esc_html__( 'Ingresa el URL del video ', 'wp-fundraising' )
                 )
             );
 
@@ -204,9 +204,9 @@ if (!class_exists('WP_FundRaising')) {
                 woocommerce_wp_text_input(
                     array(
                         'id'            => '_wf_funding_minimum_price',
-                        'label'         => esc_html__('Minimum Price ('. get_woocommerce_currency_symbol().')', 'wp-fundraising'),
-                        'placeholder'   => esc_attr__('Minimum Price','wp-fundraising'),
-                        'description'   => esc_html__('Enter the minimum price', 'wp-fundraising'),
+                        'label'         => esc_html__('Precio minimo ('. get_woocommerce_currency_symbol().')', 'wp-fundraising'),
+                        'placeholder'   => esc_attr__('Precio minimo','wp-fundraising'),
+                        'description'   => esc_html__('Ingresa el precio minimo', 'wp-fundraising'),
                         'desc_tip'      => true,
                         'class'         => 'wc_input_price'
                     )
@@ -217,9 +217,9 @@ if (!class_exists('WP_FundRaising')) {
                 woocommerce_wp_text_input(
                     array(
                         'id'            => '_wf_funding_maximum_price',
-                        'label'         => esc_html__('Maximum Price ('. get_woocommerce_currency_symbol() . ')', 'wp-fundraising'),
-                        'placeholder'   => esc_attr__('Maximum Price','wp-fundraising'),
-                        'description'   => esc_html__('Enter the maximum price', 'wp-fundraising'),
+                        'label'         => esc_html__('Precio máximo ('. get_woocommerce_currency_symbol() . ')', 'wp-fundraising'),
+                        'placeholder'   => esc_attr__('Precio máximo','wp-fundraising'),
+                        'description'   => esc_html__('Ingresa el precio máximo', 'wp-fundraising'),
                         'desc_tip'      => true,
                         'class'         =>'wc_input_price'
                     )
@@ -230,9 +230,9 @@ if (!class_exists('WP_FundRaising')) {
                 woocommerce_wp_text_input(
                     array(
                         'id'            => '_wf_funding_recommended_price',
-                        'label'         => esc_html__('Recommended Price (' . get_woocommerce_currency_symbol() . ')', 'wp-fundraising'),
-                        'placeholder'   => esc_attr__('Recommended Price', 'wp-fundraising'),
-                        'description'   => esc_html__('Enter the recommended price', 'wp-fundraising'),
+                        'label'         => esc_html__('Precio recomendado (' . get_woocommerce_currency_symbol() . ')', 'wp-fundraising'),
+                        'placeholder'   => esc_attr__('Precio recomendado', 'wp-fundraising'),
+                        'description'   => esc_html__('Ingresa el precio recomendado', 'wp-fundraising'),
                         'desc_tip'      => true,
                         'class'         => 'wc_input_price'
                     )
@@ -259,8 +259,8 @@ if (!class_exists('WP_FundRaising')) {
                 woocommerce_wp_select(
                     array(
                         'id' => '_wf_campaign_end_method',
-                        'label' => esc_html__('Campaign End Method', 'wp-fundraising'),
-                        'placeholder' => esc_attr__('Country', 'wp-fundraising'),
+                        'label' => esc_html__('Metodo de terminación del proyecto', 'wp-fundraising'),
+                        'placeholder' => esc_attr__('País', 'wp-fundraising'),
                         'class' => 'select2 _wf_campaign_end_method',
                         'options' => $options
                     )
@@ -271,9 +271,9 @@ if (!class_exists('WP_FundRaising')) {
             woocommerce_wp_checkbox(
                 array(
                     'id'            => '_wf_show_contributor_table',
-                    'label'         => esc_html__( 'Show Contributor Table', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'Mostrar la tabla de inversionistas', 'wp-fundraising' ),
                     'cbvalue'       => "yes",
-                    'description'   => esc_html__( 'Enable this option to display the contributors for this Campaign', 'wp-fundraising' ),
+                    'description'   => esc_html__( 'habilita esta opción para desplegar la tabla de inversionistas', 'wp-fundraising' ),
 //                    'desc_tip'      => true,
                 )
             );
@@ -282,9 +282,9 @@ if (!class_exists('WP_FundRaising')) {
             woocommerce_wp_checkbox(
                 array(
                     'id'            => '_wf_mark_contributors_as_anonymous',
-                    'label'         => esc_html__( 'Mark Contributors as Anonymous', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'Marcar a los inversionistas como anónimos', 'wp-fundraising' ),
                     'cbvalue'       => "yes",
-                    'description'   => esc_html__( 'Enable this option to display the contributors Name as Anonymous for this Campaign', 'wp-fundraising' ),
+                    'description'   => esc_html__( 'habilita esta opción para desplegar a los inversionistas como anónimos', 'wp-fundraising' ),
 //                    'desc_tip'      => true,
                 )
             );
@@ -300,8 +300,8 @@ if (!class_exists('WP_FundRaising')) {
             woocommerce_wp_select(
                 array(
                     'id'            => '_wf_country',
-                    'label'         => esc_html__( 'Country', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'Country', 'wp-fundraising' ),
+                    'label'         => esc_html__( 'País', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'País', 'wp-fundraising' ),
                     'class'         => 'select2 _wf_country',
                     'options'       => $countries
                 )
@@ -311,9 +311,9 @@ if (!class_exists('WP_FundRaising')) {
             woocommerce_wp_text_input(
                 array(
                     'id'            => '_wf_location',
-                    'label'         => esc_html__( 'Location', 'wp-fundraising' ),
-                    'placeholder'   => esc_attr__( 'Location', 'wp-fundraising' ),
-                    'description'   => esc_html__( 'Location of this campaign','wp-fundraising' ),
+                    'label'         => esc_html__( 'Ubicación', 'wp-fundraising' ),
+                    'placeholder'   => esc_attr__( 'Ubicación', 'wp-fundraising' ),
+                    'description'   => esc_html__( 'Ubicación de este proyecto','wp-fundraising' ),
                     'desc_tip'      => true,
                     'type'          => 'text'
                 )
@@ -419,10 +419,10 @@ if (!class_exists('WP_FundRaising')) {
                     $html .= do_action('after_wf_donate_field');
                     $html .= '<input type="hidden" name="add-to-cart" value="' . esc_attr($product->get_id()) . '" />';
                     $btn_text = get_option('wp_donation_btn_text');
-                    $html .= '<button type="submit" class="'.apply_filters('add_to_donate_button_class', 'single_add_to_cart_button button alt').'">' . esc_html__(apply_filters('add_to_donate_button_text', esc_html($btn_text) ? esc_html($btn_text) : 'Donate now'), 'wp-fundraising').'</button>';
+                    $html .= '<button type="submit" class="'.apply_filters('add_to_donate_button_class', 'single_add_to_cart_button button alt').'">' . esc_html__(apply_filters('add_to_donate_button_text', esc_html($btn_text) ? esc_html($btn_text) : 'Invertir ahora'), 'wp-fundraising').'</button>';
                     $html .= '</form>';
                 } else {
-                    $html .= apply_filters('end_campaign_message', esc_html__('This campaign has been end', 'wp-fundraising'));
+                    $html .= apply_filters('end_campaign_message', esc_html__('Este proyecto terminó', 'wp-fundraising'));
                 }
                 $html .= '</div>';
             }
@@ -669,38 +669,38 @@ if (!class_exists('WP_FundRaising')) {
                         ?>
                         <div class="options_group reward-item">
                             <p class="form-field _wf_pledge_amount_field ">
-                                <label for="_wf_pledge_amount"><?php esc_html_e('Pledge Amount','wp-fundraising');?></label>
+                                <label for="_wf_pledge_amount"><?php esc_html_e('Monto de inversión','wp-fundraising');?></label>
                                 <input type="text" class="short" name="_wf_pledge_amount[]" value="<?php if(isset($field['_wf_pledge_amount']) && $field['_wf_pledge_amount'] != '') echo sanitize_text_field( $field['_wf_pledge_amount'] ); ?>" />
                             </p>
                             <p class="form-field _wf_reward_title_field ">
-                                <label for="_wf_reward_title"><?php esc_html_e('Reward Title','wp-fundraising');?></label>
+                                <label for="_wf_reward_title"><?php esc_html_e('Título de recompensa','wp-fundraising');?></label>
                                 <input type="text" class="short" name="_wf_reward_title[]" value="<?php if(isset($field['_wf_reward_title']) && $field['_wf_reward_title'] != '') echo sanitize_text_field( $field['_wf_reward_title'] ); ?>" />
                             </p>
                             <p class="form-field _wf_reward_description_field ">
-                                <label for="_wf_reward_description"><?php esc_html_e('Reward Description','wp-fundraising');?></label>
+                                <label for="_wf_reward_description"><?php esc_html_e('Descripción de recompensa','wp-fundraising');?></label>
                                 <textarea name="_wf_reward_description[]"><?php if(isset($field['_wf_reward_description']) && $field['_wf_reward_description'] != '') echo sanitize_textarea_field( $field['_wf_reward_description'] ); ?></textarea>
                             </p>
                             <p class="form-field _wf_reward_subtitle_field ">
-                                <label for="_wf_reward_offer"><?php esc_html_e('Additional Reward Offer','wp-fundraising');?></label>
+                                <label for="_wf_reward_offer"><?php esc_html_e('Oferta de recompensa adicional','wp-fundraising');?></label>
                                 <input type="text" class="short" name="_wf_reward_offer[]" value="<?php if(isset($field['_wf_reward_offer']) && $field['_wf_reward_offer'] != '') echo sanitize_text_field( $field['_wf_reward_offer'] ); ?>" />
                             </p>
                             <p class="form-field _wf_reward_estimated_delivery_date_field ">
-                                <label for="_wf_reward_estimated_delivery_date"><?php esc_html_e('Estimated Delivery Date','wp-fundraising');?></label>
+                                <label for="_wf_reward_estimated_delivery_date"><?php esc_html_e('Fecha estimada de llegada','wp-fundraising');?></label>
                                 <input type="text" class="short" name="_wf_reward_estimated_delivery_date[]" value="<?php if(isset($field['_wf_reward_estimated_delivery_date']) && $field['_wf_reward_estimated_delivery_date'] != '') echo sanitize_text_field( $field['_wf_reward_estimated_delivery_date'] ); ?>" />
                             </p>
                             <p class="form-field _wf_reward_quantity_field ">
-                                <label for="_wf_reward_quantity"><?php esc_html_e('Quantity','wp-fundraising');?></label>
+                                <label for="_wf_reward_quantity"><?php esc_html_e('Cantidad','wp-fundraising');?></label>
                                 <input type="number" step="1" min="1" class="short" name="_wf_reward_quantity[]" value="<?php if(isset($field['_wf_reward_quantity']) && $field['_wf_reward_quantity'] != '') echo sanitize_text_field( $field['_wf_reward_quantity'] ); ?>"/>
                             </p>
                             <p class="form-field _wf_reward_ships_to_field ">
-                                <label for="_wf_reward_ships_to"><?php esc_html_e('Ships To','wp-fundraising');?></label>
+                                <label for="_wf_reward_ships_to"><?php esc_html_e('Enviar a','wp-fundraising');?></label>
                                 <input type="text" class="short" name="_wf_reward_ships_to[]" placeholder="<?php esc_html_e('Anywhere in the world','wp-fundraising');?>" value="<?php if(isset($field['_wf_reward_ships_to']) && $field['_wf_reward_ships_to'] != '') echo sanitize_text_field( $field['_wf_reward_ships_to'] ); ?>"/>
                             </p>
                             <p class="form-field _wf_reward_bg_color_field ">
-                                <label for="_wf_reward_bg_color"><?php esc_html_e('Reward Card BG Color','wp-fundraising');?></label>
+                                <label for="_wf_reward_bg_color"><?php esc_html_e('Tarjeta de recompensa Color de BG','wp-fundraising');?></label>
                                 <input class="color-field" type="text" name="_wf_reward_bg_color[]" value="<?php if(isset($field['_wf_reward_bg_color']) && $field['_wf_reward_bg_color'] != '') echo sanitize_text_field( $field['_wf_reward_bg_color'] ); ?>"/>
                             </p>
-                            <p class="form-field "><a class="button remove-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                            <p class="form-field "><a class="button remove-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
                         </div><?php
                     }
@@ -709,38 +709,38 @@ if (!class_exists('WP_FundRaising')) {
                 ?><div class="options_group reward-item"><?php
                     ?>
                     <p class="form-field _wf_pledge_amount_field ">
-                        <label for="_wf_pledge_amount"><?php esc_html_e('Pledge Amount','wp-fundraising');?></label>
+                        <label for="_wf_pledge_amount"><?php esc_html_e('Monto de inversión','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_pledge_amount[]" />
                     </p>
                     <p class="form-field _wf_reward_title_field ">
-                        <label for="_wf_reward_title"><?php esc_html_e('Reward Title','wp-fundraising');?></label>
+                        <label for="_wf_reward_title"><?php esc_html_e('Título de recompensa','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_reward_title[]" />
                     </p>
                     <p class="form-field _wf_reward_description_field ">
-                        <label for="_wf_reward_description"><?php esc_html_e('Reward Description','wp-fundraising');?></label>
+                        <label for="_wf_reward_description"><?php esc_html_e('Descripción de recompensa','wp-fundraising');?></label>
                         <textarea name="_wf_reward_description[]"></textarea>
                     </p>
                     <p class="form-field _wf_reward_subtitle_field ">
-                        <label for="_wf_reward_offer"><?php esc_html_e('Additional Reward Offer','wp-fundraising');?></label>
+                        <label for="_wf_reward_offer"><?php esc_html_e('Oferta de recompensa adicional','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_reward_offer[]" />
                     </p>
                     <p class="form-field _wf_reward_estimated_delivery_date_field ">
-                        <label for="_wf_reward_estimated_delivery_date"><?php esc_html_e('Estimated Delivery Date','wp-fundraising');?></label>
+                        <label for="_wf_reward_estimated_delivery_date"><?php esc_html_e('Fecha estimada de llegada','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_reward_estimated_delivery_date[]" />
                     </p>
                     <p class="form-field _wf_reward_quantity_field ">
-                        <label for="_wf_reward_quantity"><?php esc_html_e('Quantity','wp-fundraising');?></label>
+                        <label for="_wf_reward_quantity"><?php esc_html_e('Cantidad','wp-fundraising');?></label>
                         <input type="number" step="1" min="1" class="short" name="_wf_reward_quantity[]" />
                     </p>
                     <p class="form-field _wf_reward_ships_to_field ">
-                        <label for="_wf_reward_ships_to"><?php esc_html_e('Ships To','wp-fundraising');?></label>
+                        <label for="_wf_reward_ships_to"><?php esc_html_e('Enviar a','wp-fundraising');?></label>
                         <input type="text" placeholder="<?php esc_attr_e('Anywhere in the world','wp-fundraising');?>" class="short" name="_wf_reward_ships_to[]" />
                     </p>
                     <p class="form-field _wf_reward_bg_color_field ">
-                        <label for="_wf_reward_bg_color"><?php esc_html_e('Reward Card BG Color','wp-fundraising');?></label>
+                        <label for="_wf_reward_bg_color"><?php esc_html_e('Tarjeta de recompensa color de BG','wp-fundraising');?></label>
                         <input class="color-field" type="text" name="_wf_reward_bg_color[]" />
                     </p>
-                    <p class="form-field "><a class="button remove-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                    <p class="form-field "><a class="button remove-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
 
                     </div><?php
@@ -748,43 +748,43 @@ if (!class_exists('WP_FundRaising')) {
 
                 <div class="options_group reward-item empty-row screen-reader-text">
                     <p class="form-field _wf_pledge_amount_field ">
-                        <label for="_wf_pledge_amount"><?php esc_html_e('Pledge Amount','wp-fundraising');?></label>
+                        <label for="_wf_pledge_amount"><?php esc_html_e('Monto de inversión','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_pledge_amount[]" />
                     </p>
                     <p class="form-field _wf_reward_title_field ">
-                        <label for="_wf_reward_title"><?php esc_html_e('Reward Title','wp-fundraising');?></label>
+                        <label for="_wf_reward_title"><?php esc_html_e('Título de recompensa','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_reward_title[]" />
                     </p>
                     <p class="form-field _wf_reward_description_field ">
-                        <label for="_wf_reward_description"><?php esc_html_e('Reward Description','wp-fundraising');?></label>
+                        <label for="_wf_reward_description"><?php esc_html_e('Descripción de recompensa','wp-fundraising');?></label>
                         <textarea name="_wf_reward_description[]"></textarea>
                     </p>
                     <p class="form-field _wf_reward_offer_field ">
-                        <label for="_wf_reward_offer"><?php esc_html_e('Additional Reward Offer','wp-fundraising');?></label>
+                        <label for="_wf_reward_offer"><?php esc_html_e('Oferta de recompensa adicional','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_reward_offer[]" />
                     </p>
                     <p class="form-field _wf_reward_estimated_delivery_date_field ">
-                        <label for="_wf_reward_estimated_delivery_date"><?php esc_html_e('Estimated Delivery Date','wp-fundraising');?></label>
+                        <label for="_wf_reward_estimated_delivery_date"><?php esc_html_e('Fecha estimada de llegada','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_reward_estimated_delivery_date[]"/>
                     </p>
                     <p class="form-field _wf_reward_quantity_field ">
-                        <label for="_wf_reward_quantity"><?php esc_html_e('Quantity','wp-fundraising');?></label>
+                        <label for="_wf_reward_quantity"><?php esc_html_e('Cantidad','wp-fundraising');?></label>
                         <input type="number" step="1" min="1" class="short" name="_wf_reward_quantity[]" />
                     </p>
                     <p class="form-field _wf_reward_ships_to_field ">
-                        <label for="_wf_reward_ships_to"><?php esc_html_e('Ships To','wp-fundraising');?></label>
+                        <label for="_wf_reward_ships_to"><?php esc_html_e('Enviar a','wp-fundraising');?></label>
                         <input type="text" placeholder="<?php esc_attr_e('Anywhere in the world','wp-fundraising');?>" class="short" name="_wf_reward_ships_to[]" />
                     </p>
                     <p class="form-field _wf_reward_bg_color_field ">
-                        <label for="_wf_reward_bg_color"><?php esc_html_e('Reward Card BG Color','wp-fundraising');?></label>
+                        <label for="_wf_reward_bg_color"><?php esc_html_e('Tarjte de recompensa color de BG','wp-fundraising');?></label>
                         <input class="color-field" type="text" name="_wf_reward_bg_color[]"/>
                     </p>
-                    <p class="form-field "><a class="button remove-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                    <p class="form-field "><a class="button remove-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
                 </div>
             </div>
 
-            <p><a id="add-row" class="button" href="#"><?php esc_html_e('Add another','wp-fundraising');?></a></p>
+            <p><a id="add-row" class="button" href="#"><?php esc_html_e('Añadir otro','wp-fundraising');?></a></p>
 
             <?php
 
@@ -874,22 +874,22 @@ if (!class_exists('WP_FundRaising')) {
                         ?>
                         <div class="options_group update-item">
                         <p class="form-field _wf_update_date_field ">
-                            <label for="_wf_update_date"><?php esc_html_e('Date','wp-fundraising');?></label>
+                            <label for="_wf_update_date"><?php esc_html_e('Fecha','wp-fundraising');?></label>
                             <input type="text" class="short" name="_wf_update_date[]" value="<?php if(isset($field['_wf_update_date']) && $field['_wf_update_date'] != '') echo sanitize_text_field( $field['_wf_update_date'] ); ?>" />
                         </p>
                         <p class="form-field _wf_update_title_field ">
-                            <label for="_wf_update_title"><?php esc_html_e('Update Title','wp-fundraising');?></label>
+                            <label for="_wf_update_title"><?php esc_html_e('Actualizar título','wp-fundraising');?></label>
                             <input type="text" class="short" name="_wf_update_title[]" value="<?php if(isset($field['_wf_update_title']) && $field['_wf_update_title'] != '') echo sanitize_text_field( $field['_wf_update_title'] ); ?>" />
                         </p>
                         <p class="form-field _wf_update_description_field ">
-                            <label for="_wf_update_description"><?php esc_html_e('Update Description','wp-fundraising');?></label>
+                            <label for="_wf_update_description"><?php esc_html_e('Actualizar descripción','wp-fundraising');?></label>
                             <textarea name="_wf_update_description[]"><?php if(isset($field['_wf_update_description']) && $field['_wf_update_description'] != '') echo sanitize_text_field( $field['_wf_update_description'] ); ?></textarea>
                         </p>
                         <p class="form-field _wf_update_url_field ">
                             <label for="_wf_update_url"><?php esc_html_e('URL','wp-fundraising');?></label>
                             <input type="text" class="short" name="_wf_update_url[]" value="<?php if(isset($field['_wf_update_url']) && $field['_wf_update_url'] != '') echo sanitize_text_field( $field['_wf_update_url'] ); ?>" />
                         </p>
-                        <p class="form-field "><a class="button remove-update-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                        <p class="form-field "><a class="button remove-update-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
                         </div><?php
                     }
@@ -898,22 +898,22 @@ if (!class_exists('WP_FundRaising')) {
                     ?><div class="options_group update-item"><?php
                     ?>
                     <p class="form-field _wf_update_date_field ">
-                        <label for="_wf_update_date"><?php esc_html_e('Date','wp-fundraising');?></label>
+                        <label for="_wf_update_date"><?php esc_html_e('Fecha','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_update_date[]"/>
                     </p>
                     <p class="form-field _wf_update_title_field ">
-                        <label for="_wf_update_title"><?php esc_html_e('Update Title','wp-fundraising');?></label>
+                        <label for="_wf_update_title"><?php esc_html_e('Actualizar título','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_update_title[]" />
                     </p>
                     <p class="form-field _wf_update_description_field ">
-                        <label for="_wf_update_description"><?php esc_html_e('Update Description','wp-fundraising');?></label>
+                        <label for="_wf_update_description"><?php esc_html_e('Actualizar descripción','wp-fundraising');?></label>
                         <textarea name="_wf_update_description[]"></textarea>
                     </p>
                     <p class="form-field _wf_update_url_field ">
                         <label for="_wf_update_url"><?php esc_html_e('URL','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_update_url[]"/>
                     </p>
-                    <p class="form-field "><a class="button remove-update-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                    <p class="form-field "><a class="button remove-update-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
 
                     </div><?php
@@ -921,27 +921,27 @@ if (!class_exists('WP_FundRaising')) {
 
                 <div class="options_group update-item empty-update-row screen-reader-text">
                     <p class="form-field _wf_update_date_field ">
-                        <label for="_wf_update_date"><?php esc_html_e('Date','wp-fundraising');?></label>
+                        <label for="_wf_update_date"><?php esc_html_e('Fecha','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_update_date[]"/>
                     </p>
                     <p class="form-field _wf_update_title_field ">
-                        <label for="_wf_update_title"><?php esc_html_e('Update Title','wp-fundraising');?></label>
+                        <label for="_wf_update_title"><?php esc_html_e('Actualizar título','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_update_title[]" />
                     </p>
                     <p class="form-field _wf_update_description_field ">
-                        <label for="_wf_update_description"><?php esc_html_e('Update Description','wp-fundraising');?></label>
+                        <label for="_wf_update_description"><?php esc_html_e('Actualizar descripción','wp-fundraising');?></label>
                         <textarea name="_wf_update_description[]"></textarea>
                     </p>
                     <p class="form-field _wf_update_url_field ">
                         <label for="_wf_update_url"><?php esc_html_e('URL','wp-fundraising');?></label>
                         <input type="text" class="short" name="_wf_update_url[]"/>
                     </p>
-                    <p class="form-field "><a class="button remove-update-row" href="#"><?php esc_html_e('Remove','wp-fundraising');?></a></p>
+                    <p class="form-field "><a class="button remove-update-row" href="#"><?php esc_html_e('Remover','wp-fundraising');?></a></p>
 
                 </div>
             </div>
 
-            <p><a id="add-update-row" class="button" href="#"><?php esc_html_e('Add another','wp-fundraising');?></a></p>
+            <p><a id="add-update-row" class="button" href="#"><?php esc_html_e('Añadir otro','wp-fundraising');?></a></p>
 
             <?php
 

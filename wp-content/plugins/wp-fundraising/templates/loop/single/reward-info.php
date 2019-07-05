@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
             <div class="xs-info-card xs-purple-bg fundpress-info-card xs-box-shadow xs-mb-30 color-white"
                  style="<?php echo $bg_style; ?>">
                 <?php if (isset($field['_wf_pledge_amount']) && $field['_wf_pledge_amount'] != '') { ?>
-                    <h3 class="xs-mb-30"><?php esc_html_e('Pledge ','wp-funsraising');?><?php echo wf_price($field['_wf_pledge_amount']); ?> <?php esc_html_e('or more','wp-funsraising');?></h3>
+                    <h3 class="xs-mb-30"><?php esc_html_e('Invierte ','wp-funsraising');?><?php echo wf_price($field['_wf_pledge_amount']); ?> <?php esc_html_e('o más','wp-funsraising');?></h3>
                 <?php } ?>
                 <?php if (isset($field['_wf_reward_title']) && $field['_wf_reward_title'] != '') { ?>
                     <h4 class="xs-mb-20"><?php echo $field['_wf_reward_title']; ?></h4>

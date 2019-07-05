@@ -132,7 +132,7 @@ $fields[]= array(
             'function' => 'html'
         ),
     ),
-    'default'     => esc_html__( 'Copyrights By Xpeedstudio - 2018', 'crowdmerc' ),
+    'default'     => esc_html__( 'Copyrights crowdfunding® - 2019', 'crowdmerc' ),
 );
 
 $fields[] = array(

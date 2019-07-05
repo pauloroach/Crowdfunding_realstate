@@ -39,17 +39,17 @@ if ( $the_query->have_posts() ) :
         if($total_raised == null){
             $total_raised = 0;
         }
-        $days_remaining = apply_filters('date_expired_msg', esc_html__('Date expired', 'wp-fundraising'));
+        $days_remaining = apply_filters('date_expired_msg', esc_html__('La fecha expiró', 'wp-fundraising'));
         if (wf_date_remaining(get_the_ID())){
             $days_remaining = apply_filters('date_remaining_msg', esc_html__(wf_date_remaining(get_the_ID()), 'wp-fundraising'));
         }
         ?>
         <div class="xs-campaign-info-card">
             <div class="xs-dashboard-header">
-                <h3 class="dashboard-title"><?php echo get_the_title(); ?> <span><?php esc_html_e('by','wp-fundraising');?> <?php echo get_the_author();?></span></h3>
+                <h3 class="dashboard-title"><?php echo get_the_title(); ?> <span><?php esc_html_e('por','wp-fundraising');?> <?php echo get_the_author();?></span></h3>
                 <div class="xs-btn-wraper">
-                    <a target="_blank" href="<?php echo home_url('/')?>wf-campaign-form/?action=edit&campaign_id=<?php the_ID();?>" class="btn btn-outline-success"><?php esc_html_e('Edit','wp-fundraising');?></a>
-                    <a href="<?php the_permalink();?>" class="btn btn-outline-success"><?php esc_html_e('View','wp-fundraising');?></a>
+                    <a target="_blank" href="<?php echo home_url('/')?>wf-campaign-form/?action=edit&campaign_id=<?php the_ID();?>" class="btn btn-outline-success"><?php esc_html_e('Editar','wp-fundraising');?></a>
+                    <a href="<?php the_permalink();?>" class="btn btn-outline-success"><?php esc_html_e('Ver','wp-fundraising');?></a>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -85,7 +85,7 @@ if ( $the_query->have_posts() ) :
     <?php endwhile;
     wp_reset_postdata();
 else :
-    ?><p> <?php esc_html_e( 'Sorry, no Campaign Found.','wp-fundraising' ); ?></p>
+    ?><p> <?php esc_html_e( 'Lo sentimos, no se encontro ningún proyecto.','wp-fundraising' ); ?></p>
 <?php endif; ?>
 
 </div>

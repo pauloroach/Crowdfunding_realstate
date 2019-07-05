@@ -18,19 +18,19 @@ function wp_fundraising_dashboard_shortcode( $attr ){
         'campaigns' =>
             array(
                 'tab'             => 'campaigns',
-                'tab_name'        => esc_html__('My Campaigns','wp-fundraising'),
+                'tab_name'        => esc_html__('Mis proyectos','wp-fundraising'),
                 'load_form_file'  => WP_FUNDRAISING_DIR_PATH.'templates/dashboard/campaigns.php'
             ),
         'my_account' =>
             array(
                 'tab'             => 'my_account',
-                'tab_name'        => esc_html__('My Account','wp-fundraising'),
+                'tab_name'        => esc_html__('Mi cuenta','wp-fundraising'),
                 'load_form_file'  => WP_FUNDRAISING_DIR_PATH.'templates/dashboard/account.php'
             ),
         'address' =>
             array(
                 'tab'             => 'address',
-                'tab_name'        => esc_html__('Address','wp-fundraising'),
+                'tab_name'        => esc_html__('Domicilios','wp-fundraising'),
                 'load_form_file'  => WP_FUNDRAISING_DIR_PATH.'templates/dashboard/address.php'
             ),
     ));
@@ -40,7 +40,7 @@ function wp_fundraising_dashboard_shortcode( $attr ){
 
         <?php if ( is_user_logged_in() ) { ?>
             <div class="xs-dashboard-header">
-                <h3 class="dashboard-title">Dashboard</h3>
+                <h3 class="dashboard-title">Tablero</h3>
                 <div class="xs-btn-wraper">
                     <a href="<?php echo home_url('/')?>wf-campaign-form/" target="_blank" class="btn btn-primary"><?php echo wf_add_new_campaign_text();?></a>
                 </div>
@@ -68,7 +68,7 @@ function wp_fundraising_dashboard_shortcode( $attr ){
                                 <li class="nav-link"><a class="nav-link <?php echo $active; ?>" href="<?php echo $pagelink; ?>"><?php echo $menu_value['tab_name']; ?></a></li>
                             <?php } ?>
                         <?php } ?>
-                        <li class="nav-link"><a class="nav-link" href="<?php echo wp_logout_url(get_permalink()); ?>"><?php echo esc_html('Log Out','wp-fundraising'); ?></a></li>
+                        <li class="nav-link"><a class="nav-link" href="<?php echo wp_logout_url(get_permalink()); ?>"><?php echo esc_html('Salir','wp-fundraising'); ?></a></li>
                     </ul>
                 </div>
                 <div class="col-lg-9">
@@ -91,7 +91,7 @@ function wp_fundraising_dashboard_shortcode( $attr ){
         <?php }else{ ?>
             <div class="xs-section-padding xs-login-btn-area">
                 <div class="container">
-                    <p><?php esc_html_e('Please ','wp-fundraising');?><a href="" data-toggle="modal" data-target=".<?php echo wf_login_signup_modal_class();?>"><?php esc_html_e('Log In','wp-fundraising');?></a><?php esc_html_e(' to access this page.','wp-fundraising');?></p>
+                    <p><?php esc_html_e('Porfavor ','wp-fundraising');?><a href="" data-toggle="modal" data-target=".<?php echo wf_login_signup_modal_class();?>"><?php esc_html_e('Debe loggearse','wp-fundraising');?></a><?php esc_html_e(' para accesar a esta página.','wp-fundraising');?></p>
                 </div>
             </div>
         <?php } ?>
