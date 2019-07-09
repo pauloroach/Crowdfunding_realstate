@@ -27,10 +27,12 @@
                     <div class="double-bounce1"></div>
                     <div class="double-bounce2"></div>
                 </div>
+                <!--
                 <div class="preloader-cancel-btn-wraper">
                     <a href="#" class="xs-btn btn btn-primary preloader-cancel-btn">Cancel Preloader</a>
                 </div>
-            </div><!-- #preloader --
+                #preloader -->
+            </div> 
             <?php endif; ?>
 			<?php
             $nav_style = crowdmerc_option('header_style', crowdmerc_defaults('header_style'));
