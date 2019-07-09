@@ -170,7 +170,7 @@ $grid = 12/$cols;
                             </div>
                         <?php endif; ?>
                         <div class="xs-avatar-title">
-                            <a href="<?php echo get_the_author_link();?>"><span><?php esc_html_e('Por', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
+                            <a href="<?php echo get_the_author_link();?>"><span><?php esc_html_e('Por ', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
                         </div>
                     </div>
                 <?php } ?>
@@ -189,7 +189,7 @@ $grid = 12/$cols;
                     <span class="badge badge-v2 badge-pill badge-primary">Meta: <?php echo wc_price($funding_goal); ?></span>
                     <br>
                     <br>
-                    <span><i class="icon icon-man"></i><?php echo $days_remaining; ?> <?php echo wf_dashboard_days_remaining_text(); ?></span>
+                    <span><i class="icon icon-calendar"></i><?php echo $days_remaining; ?> <?php echo wf_dashboard_days_remaining_text(); ?></span>
                 </div>
             </div>
         </div>

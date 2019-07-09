@@ -539,10 +539,10 @@ class Xs_Featured_Crowdfunding_Widget extends Widget_Base {
                                 <?php endif; ?>
                                 <ul class="xs-list-with-content fundpress-welcome-list-content">
                                     <?php if($show_funded_price == 'yes'): ?>
-                                        <li><?php echo wc_price( $total_raised );?><span><?php echo esc_html__( 'Pledged','crowdmerc' );?></span></li>
+                                        <li><?php echo wc_price( $total_raised );?><span><?php echo esc_html__( 'Recaudado','crowdmerc' );?></span></li>
                                     <?php endif; ?>
                                     <?php if($show_goal_price == 'yes'): ?>
-                                        <li><?php echo  wc_price( $funding_goal ); ?><span><?php echo esc_html__( 'Goal', 'crowdmerc' ) ?></span></li>
+                                        <li><?php echo  wc_price( $funding_goal ); ?><span><?php echo esc_html__( 'Meta', 'crowdmerc' ) ?></span></li>
                                     <?php endif; ?>
                                 </ul>
                                 <div class="xs-btn-wraper">
@@ -610,8 +610,8 @@ class Xs_Featured_Crowdfunding_Widget extends Widget_Base {
                                                         </div>
                                                     <?php endif; ?>
                                                     <ul class="fundpress-welcome-list-content list-inline">
-                                                        <li><?php echo wc_price( $total_raised );?><span class="d-block"><?php echo esc_html__( 'Pledged','crowdmerc' );?></span></li>
-                                                        <li><?php echo  wc_price( $funding_goal ); ?><span class="d-block"><?php echo esc_html__( 'Goal', 'crowdmerc' ) ?></span></li>
+                                                        <li><?php echo wc_price( $total_raised );?><span class="d-block"><?php echo esc_html__( 'Recaudado','crowdmerc' );?></span></li>
+                                                        <li><?php echo  wc_price( $funding_goal ); ?><span class="d-block"><?php echo esc_html__( 'Meta', 'crowdmerc' ) ?></span></li>
                                                     </ul>
                                                     <?php if(!empty($btn_label)): ?>
                                                         <div class="xs-btn-wraper">

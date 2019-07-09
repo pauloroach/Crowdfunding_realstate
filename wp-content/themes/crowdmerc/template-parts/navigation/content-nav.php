@@ -76,7 +76,7 @@ $header_class = ($show_border) ? 'xs-menu-style-border' : '';
 
 								<?php endif; ?>
 							<?php endif; ?>
-							<?php if($show_header_cta): ?>
+							<?php if(is_user_logged_in()): ?>
 								<li><a href="<?php echo esc_url($cta_btn_link) ?>" class="d-block d-lg-none d-xl-block xs-btn round-btn green-btn"><?php echo esc_html($cta_btn_label) ?></a></li>
 							<?php endif; ?>
 						</ul>
