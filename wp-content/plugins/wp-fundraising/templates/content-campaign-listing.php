@@ -170,7 +170,7 @@ $grid = 12/$cols;
                             </div>
                         <?php endif; ?>
                         <div class="xs-avatar-title">
-                            <a href="<?php echo get_the_author_link();?>"><span><?php esc_html_e('Por ', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
+                            <a href="<?php echo get_the_author_link();?>"><span><?php esc_html_e('Por: ', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
                         </div>
                     </div>
                 <?php } ?>
