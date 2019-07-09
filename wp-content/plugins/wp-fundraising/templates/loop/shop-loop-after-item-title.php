@@ -32,7 +32,7 @@
     //Get order sales value by product
     $sales_value_by_product = 0;
 
-    $days_remaining = apply_filters('date_expired_msg', esc_html__('Date expired', 'wp-fundraising'));
+    $days_remaining = apply_filters('date_expired_msg', esc_html__('El proyecto Finalizó', 'wp-fundraising'));
     if (wf_date_remaining()){
         $days_remaining = apply_filters('date_remaining_msg', esc_html__(wf_date_remaining().' days remaining', 'wp-fundraising'));
     }

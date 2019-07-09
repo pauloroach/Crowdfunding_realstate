@@ -17,7 +17,11 @@ $enddate        = get_post_meta( get_the_ID(), '_wf_duration_end', true );
 $show_end_date = wf_get_option('_wf_hide_campaign_expiry_from_listing', 'wf_basics');
 
 $short_description = apply_filters( 'woocommerce_short_description', get_the_excerpt() );
-
+//Get days
+$days_remaining = apply_filters('date_expired_msg', esc_html__('La fecha expiró', 'wp-fundraising'));
+        if (wf_date_remaining(get_the_ID())){
+            $days_remaining = apply_filters('date_remaining_msg', esc_html__(wf_date_remaining(get_the_ID()), 'wp-fundraising'));
+        }
 //Get Country name from WooCommerce
 
 $countries_obj  = new WC_Countries();
@@ -38,7 +42,7 @@ if ($total_raised){
 //Get order sales value by product
 $sales_value_by_product = 0;
 
-$days_remaining = apply_filters('date_expired_msg', esc_html__('Date expired', 'wp-fundraising'));
+$days_remaining = apply_filters('date_expired_msg', esc_html__('El proyecto Finalizó', 'wp-fundraising'));
 if (wf_date_remaining(get_the_ID())){
     $days_remaining = apply_filters('date_remaining_msg', esc_html__(wf_date_remaining(get_the_ID()), 'wp-fundraising'));
 }
@@ -166,7 +170,7 @@ $grid = 12/$cols;
                             </div>
                         <?php endif; ?>
                         <div class="xs-avatar-title">
-                            <a href="<?php echo get_the_author_link();?>"><span><?php esc_html_e('By', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
+                            <a href="<?php echo get_the_author_link();?>"><span><?php esc_html_e('Por', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
                         </div>
                     </div>
                 <?php } ?>
@@ -175,10 +179,17 @@ $grid = 12/$cols;
 
                 <span class="xs-separetor"></span>
 
-                <div class="fundpress-list-cat">
+                <div style="text-align:left!important;">
                     <span><i class="icon icon-man"></i><?php echo $backers_count; ?> <?php echo wf_archive_backers_count_text(); ?></span>
+                    <br>
+                    <br>
                     <span><i class="icon icon-favorites"></i><?php echo $fund_raised_percent; ?> <?php echo wf_archive_fund_raised_percent_text(); ?></span>
-                    <span class="badge badge-v2 badge-pill badge-primary"><?php echo wc_price($funding_goal); ?></span>
+                    <br>
+                    <br>
+                    <span class="badge badge-v2 badge-pill badge-primary">Meta: <?php echo wc_price($funding_goal); ?></span>
+                    <br>
+                    <br>
+                    <span><i class="icon icon-man"></i><?php echo $days_remaining; ?> <?php echo wf_dashboard_days_remaining_text(); ?></span>
                 </div>
             </div>
         </div>
