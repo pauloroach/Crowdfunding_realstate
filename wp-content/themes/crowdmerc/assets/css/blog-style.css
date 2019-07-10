@@ -1,6 +1,9 @@
-
+.button-campaings-secction{
+    background-color:#4CC899;
+    border: none;
+}
 a{
-    color: #041D57;
+    color: rgb(255, 255, 255);
 }
 a:hover{
     color: #4CC899;

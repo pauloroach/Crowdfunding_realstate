@@ -2932,3 +2932,52 @@ h5.auth_success{
 .xs-list-with-content.fundpress-simple-list-content {
     display: block;
 }
+.div-alaizquierda{
+    margin-left: 15px;
+    display: inline-block;
+ }
+ .div-aladerecha{
+    float: right;
+    margin-right: 15px;
+ }
+ #div11{
+     display: inline-block;
+ }
+ #contenedor1{ 
+     height: 50px;
+     width: 300px;
+     padding-top: 15px;
+ }
+ #contenedor2{ 
+     height: 50px;
+     width: 300px;
+     padding-top: 15px;
+ }
+ #contenedor3{ 
+     height: 50px;
+     width: 300px;
+     padding-top: 15px;
+ }
+ #contenedor4{ 
+     height: 50px;
+     width: 300px;
+     padding-top: 15px;
+ }
+ #contenedor5{ 
+     height: 50px;
+     width: 300px;
+     padding-top: 15px;
+ }
+ #contenedor6{ 
+     height: 50px;
+     width: 300px;
+     padding-top: 15px;
+     text-align: center;
+ }
+ #contenedor7{ 
+     height: 20px;
+     width: 300px;
+     padding-top: 15px;
+     text-align: center;
+     padding-bottom: 15px;
+ }

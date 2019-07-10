@@ -54,7 +54,7 @@ $grid = 12/$cols;
     <?php if($args['style'] == "1"){ ?>
         <div class="fundpress-grid-item-content">
             <div class="fundpress-item-header xs-mb-30">
-                <a href="<?php the_permalink();?>"><img src="<?php echo $image_link; ?>" alt=""></a>
+                <a href="<?php the_permalink();?>" ><img src="<?php echo $image_link; ?>" alt=""></a>
                 <div class="xs-item-header-content">
                     <div class="xs-skill-bar-v3" data-percent="<?php echo $fund_raised_percent; ?>">
                         <div class="xs-skill-track">
@@ -65,8 +65,9 @@ $grid = 12/$cols;
             </div>
             <div class="fundpress-item-content">
                 <?php
-                $categories = get_the_terms( get_the_ID(), 'product_cat' );
+                    $categories = get_the_terms( get_the_ID(), 'product_cat' );
                 ?>
+                <!--
                 <ul class="xs-simple-tag fundpress-simple-tag">
                     <?php
                     foreach($categories as $category){
@@ -74,7 +75,52 @@ $grid = 12/$cols;
                     }
                     ?>
                 </ul>
-                <a href="<?php the_permalink();?>" class="d-block color-navy-blue fundpress-post-title"><?php the_title();?></a>
+                -->
+                <a href="<?php the_permalink();?>" class="d-block color-navy-blue fundpress-post-title" style="text-align: center;"><?php the_title();?></a>
+                <div id="contenedor1">
+                    <div class="div-alaizquierda"> 
+                        <?php echo wf_archive_fund_goal_text(); ?>
+                    </div>
+                    <div class="div-aladerecha" style="color: black; font-size: 16px; font-weight: bold">
+                        <?php echo wc_price($funding_goal); ?>
+                    </div>
+                </div>
+                <div id="contenedor2">
+                    <div class="div-alaizquierda">
+                        <?php echo wf_archive_fund_raised_text(); ?>
+                    </div>
+                    <div class="div-aladerecha" style="color: green; font-size: 16px; font-weight: bold;">
+                        <?php echo wc_price($raised); ?>
+                    </div>
+                </div>
+                <div id="contenedor3">
+                    <div class="div-alaizquierda">Rendimiento estimado</div>
+                    <div class="div-aladerecha" style="color: #4CC899; font-size: 16px; font-weight: bold;">%15.5</div>
+                </div>
+                <div id="contenedor4">
+                    <div class="div-alaizquierda">Invierte desde</div>
+                    <div class="div-aladerecha">$5,555,666</div>
+                </div>
+                <div id="contenedor5">
+                    <div class="div-alaizquierda">Plazo estimado</div>
+                    <div class="div-aladerecha">De 12 a 24 meses</div>
+                </div>
+                <ul class="xs-list-with-content fundpress-list-item-content" >
+                    <?php if ($show_end_date == 'off') { ?>
+                        <?php if ($days_remaining) { ?>
+                            <li>
+                                <?php echo $days_remaining; ?>
+                                    <span>
+                                        <?php echo wf_archive_days_remaining_text(); ?>
+                                    </span>
+                            </li>
+                            <?php } ?>
+                    <?php } ?> 
+                </ul>
+                <div id="contenedor7" >
+                    <div><a class="btn btn-success button-campaings-secction" href="<?php the_permalink();?>">Ver proyecto</a></div>
+                </div>
+                <!--
                 <ul class="xs-list-with-content fundpress-list-item-content">
                     <?php if ($funding_goal) { ?>
                         <li><?php echo wc_price($funding_goal); ?><span><?php echo wf_archive_fund_goal_text(); ?></span></li>
@@ -90,7 +136,7 @@ $grid = 12/$cols;
                         <?php } ?>
                     <?php } ?>
                 </ul>
-
+                        -->
                 <?php if($args['author'] == 'yes'){ ?>
                     <span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor xs-mb-20 xs-mt-30"></span>
                     <div class="row xs-margin-0">
@@ -189,7 +235,7 @@ $grid = 12/$cols;
                     <span class="badge badge-v2 badge-pill badge-primary">Meta: <?php echo wc_price($funding_goal); ?></span>
                     <br>
                     <br>
-                    <span><i class="icon icon-calendar"></i><?php echo $days_remaining; ?> <?php echo wf_dashboard_days_remaining_text(); ?></span>
+                    <span><i class="icon icon-clock"></i><?php echo $days_remaining; ?> <?php echo wf_dashboard_days_remaining_text(); ?></span>
                 </div>
             </div>
         </div>
