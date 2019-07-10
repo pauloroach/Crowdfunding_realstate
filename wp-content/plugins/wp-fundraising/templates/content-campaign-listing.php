@@ -54,7 +54,7 @@ $grid = 12/$cols;
     <?php if($args['style'] == "1"){ ?>
         <div class="fundpress-grid-item-content">
             <div class="fundpress-item-header xs-mb-30">
-                <a href="<?php the_permalink();?>" ><img src="<?php echo $image_link; ?>" alt=""></a>
+                <a href="<?php the_permalink();?>" ><img id="img-secction"src="<?php echo $image_link; ?>" alt=""></a>
                 <div class="xs-item-header-content">
                     <div class="xs-skill-bar-v3" data-percent="<?php echo $fund_raised_percent; ?>">
                         <div class="xs-skill-track">
@@ -140,8 +140,8 @@ $grid = 12/$cols;
                 <?php if($args['author'] == 'yes'){ ?>
                     <span class="xs-separetor border-separetor xs-separetor-v2 fundpress-separetor xs-mb-20 xs-mt-30"></span>
                     <div class="row xs-margin-0">
-                        <div class="full-round fundpress-avatar">
-                        <?php echo get_avatar( get_the_author_meta( 'ID' ), 100 );?>
+                        <div>
+                            <i class="icon icon-man"></i>
                         </div>
                         <div class="xs-avatar-title">
                             <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><span><?php esc_html_e('By', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
