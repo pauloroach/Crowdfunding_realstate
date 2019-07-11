@@ -27,7 +27,7 @@ if($sidebar != 1){
 			<div class="entry-header xs-mb-30">
 				<div class="post-author">
 					<ul class="xs-simple-tag xs-simple-tag-v2 fundpress-simple-tag author-links">
-						<li><span><?php echo esc_html__('By','crowdmerc') ?></span><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) )); ?>" rel="author"><?php echo get_the_author(); ?></a></li>
+						<li><span><?php echo esc_html__('Por','crowdmerc') ?></span><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) )); ?>" rel="author"><?php echo get_the_author_meta( 'nickname' ); ?></a></li>
 					</ul>
 				</div>
 				<h4 class="entry-title">
