@@ -144,7 +144,7 @@ $grid = 12/$cols;
                             <i class="icon icon-man"></i>
                         </div>
                         <div class="xs-avatar-title">
-                            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>"><span><?php esc_html_e('By', 'wp-fundraising'); ?></span><?php echo get_the_author(); ?></a>
+                            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'nickname' ) ); ?>"><span><?php esc_html_e('Por', 'wp-fundraising'); ?></span><?php echo get_the_author_meta( 'nickname' ); ?></a>
                         </div>
                     </div>
                 <?php } ?>
